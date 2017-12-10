@@ -58,9 +58,9 @@ public:
      */
     enum Unit
     {
-        PURA,
-        mPURA,
-        uPURA,
+        FOL,
+        mFOL,
+        uFOL,
         duffs
     };
 

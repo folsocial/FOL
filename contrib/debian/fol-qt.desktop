@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FOL
+Comment=FOL P2P Cryptocurrency
+Comment[fr]=FOL, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=FOL, eşten eşe kriptografik sanal para birimi
+Exec=fol-qt %u
+Terminal=false
+Type=Application
+Icon=fol128
+MimeType=x-scheme-handler/fol;
+Categories=Office;Finance;

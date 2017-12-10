@@ -3,7 +3,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-//#define ENABLE_PURA_DEBUG
+//#define ENABLE_FOL_DEBUG
 
 #include "activemasternode.h"
 #include "governance.h"

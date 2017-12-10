@@ -80,7 +80,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  PURA NETWORK (ROOT)
+ *  FOL NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES

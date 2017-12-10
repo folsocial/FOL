@@ -308,7 +308,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
         CReserveKey *keyChange = transaction.getPossibleKeyChange();
 
         if(recipients[0].fUseInstaPay && total > sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)*COIN){
-            Q_EMIT message(tr("Send Coins"), tr("InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 PURA.").arg(sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)),
+            Q_EMIT message(tr("Send Coins"), tr("InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 FOL.").arg(sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)),
                          CClientUIInterface::MSG_ERROR);
             return TransactionCreationFailed;
         }
@@ -320,7 +320,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
 
         if(recipients[0].fUseInstaPay) {
             if(newTx->GetValueOut() > sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)*COIN) {
-                Q_EMIT message(tr("Send Coins"), tr("InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 PURA.").arg(sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)),
+                Q_EMIT message(tr("Send Coins"), tr("InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 FOL.").arg(sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)),
                              CClientUIInterface::MSG_ERROR);
                 return TransactionCreationFailed;
             }

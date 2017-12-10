@@ -1,4 +1,4 @@
-TOR SUPPORT IN PURA
+TOR SUPPORT IN FOL
 ===================
 
 It is possible to run FOL as a Tor hidden service, and connect to such services.

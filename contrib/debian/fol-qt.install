@@ -1,0 +1,6 @@
+usr/local/bin/fol-qt usr/bin
+share/pixmaps/fol32.xpm usr/share/pixmaps
+share/pixmaps/fol16.xpm usr/share/pixmaps
+share/pixmaps/fol128.png usr/share/pixmaps
+debian/fol-qt.desktop usr/share/applications
+debian/fol-qt.protocol usr/share/kde4/services/

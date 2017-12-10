@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef PURA_BIP39_H
-#define PURA_BIP39_H
+#ifndef FOL_BIP39_H
+#define FOL_BIP39_H
 
 #include "support/allocators/secure.h"
 

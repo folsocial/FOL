@@ -2787,10 +2787,10 @@ bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount 
     std::random_shuffle(vCoins.rbegin(), vCoins.rend(), GetRandInt);
 
     // ( bit on if present )
-    // bit 0 - 100PURA+1
-    // bit 1 - 10PURA+1
-    // bit 2 - 1PURA+1
-    // bit 3 - .1PURA+1
+    // bit 0 - 100FOL+1
+    // bit 1 - 10FOL+1
+    // bit 2 - 1FOL+1
+    // bit 3 - .1FOL+1
 
     std::vector<int> vecBits;
     if (!CPrivatePay::GetDenominationsBits(nDenom, vecBits)) {
@@ -3295,9 +3295,9 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend, CWalletTx& wt
                 if (!SelectCoins(nValueToSelect, setCoins, nValueIn, coinControl, nCoinType, fUseInstaPay))
                 {
                     if (nCoinType == ONLY_NOT100000IFMN) {
-                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 1000 PURA.");
+                        strFailReason = _("Unable to locate enough funds for this transaction that are not equal 1000 FOL.");
                     } else if (nCoinType == ONLY_NONDENOMINATED_NOT100000IFMN) {
-                        strFailReason = _("Unable to locate enough PrivatePay non-denominated funds for this transaction that are not equal 1000 PURA.");
+                        strFailReason = _("Unable to locate enough PrivatePay non-denominated funds for this transaction that are not equal 1000 FOL.");
                     } else if (nCoinType == ONLY_DENOMINATED) {
                         strFailReason = _("Unable to locate enough PrivatePay denominated funds for this transaction.");
                         strFailReason += " " + _("PrivatePay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.");
@@ -3306,7 +3306,7 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend, CWalletTx& wt
                     }
                     if (fUseInstaPay) {
                         if (nValueIn > sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE)*COIN) {
-                            strFailReason += " " + strprintf(_("InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 PURA."), sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE));
+                            strFailReason += " " + strprintf(_("InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 FOL."), sporkManager.GetSporkValue(SPORK_5_INSTAPAY_MAX_VALUE));
                         } else {
                             // could be not true but most likely that's the reason
                             strFailReason += " " + strprintf(_("InstaPay requires inputs with at least %d confirmations, you might need to wait a few minutes and try again."), INSTAPAY_CONFIRMATIONS_REQUIRED);

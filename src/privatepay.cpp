@@ -156,8 +156,8 @@ void CPrivatePay::InitStandardDenominations()
         is convertable to another.
 
         For example:
-        1PURA+1000 == (.1PURA+100)*10
-        10PURA+10000 == (1PURA+1000)*10
+        1FOL+1000 == (.1FOL+100)*10
+        10FOL+10000 == (1FOL+1000)*10
     */
     /* Disabled
     vecStandardDenominations.push_back( (100      * COIN)+100000 );
@@ -312,10 +312,10 @@ int CPrivatePay::GetDenominations(const std::vector<CTxOut>& vecTxOut, bool fSin
 bool CPrivatePay::GetDenominationsBits(int nDenom, std::vector<int> &vecBitsRet)
 {
     // ( bit on if present, 4 denominations example )
-    // bit 0 - 100PURA+1
-    // bit 1 - 10PURA+1
-    // bit 2 - 1PURA+1
-    // bit 3 - .1PURA+1
+    // bit 0 - 100FOL+1
+    // bit 1 - 10FOL+1
+    // bit 2 - 1FOL+1
+    // bit 3 - .1FOL+1
 
     int nMaxDenoms = vecStandardDenominations.size();
 

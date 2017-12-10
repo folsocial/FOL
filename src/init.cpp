@@ -590,7 +590,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-enableprivatepay=<n>", strprintf(_("Enable use of automated PrivatePay for funds stored in this wallet (0-1, default: %u)"), 0));
     strUsage += HelpMessageOpt("-privatepaymultisession=<n>", strprintf(_("Enable multiple PrivatePay mixing sessions per block, experimental (0-1, default: %u)"), DEFAULT_PRIVATEPAY_MULTISESSION));
     strUsage += HelpMessageOpt("-privatepayrounds=<n>", strprintf(_("Use N separate masternodes for each denominated input to mix funds (2-16, default: %u)"), DEFAULT_PRIVATEPAY_ROUNDS));
-    strUsage += HelpMessageOpt("-privatepayamount=<n>", strprintf(_("Keep N PURA anonymized (default: %u)"), DEFAULT_PRIVATEPAY_AMOUNT));
+    strUsage += HelpMessageOpt("-privatepayamount=<n>", strprintf(_("Keep N FOL anonymized (default: %u)"), DEFAULT_PRIVATEPAY_AMOUNT));
     strUsage += HelpMessageOpt("-liquidityprovider=<n>", strprintf(_("Provide liquidity to PrivatePay by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)"), DEFAULT_PRIVATEPAY_LIQUIDITY));
 
     strUsage += HelpMessageGroup(_("InstaPay options:"));

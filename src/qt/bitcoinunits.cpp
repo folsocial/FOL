@@ -20,9 +20,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PURA);
-    unitlist.append(mPURA);
-    unitlist.append(uPURA);
+    unitlist.append(FOL);
+    unitlist.append(mFOL);
+    unitlist.append(uFOL);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -31,9 +31,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case PURA:
-    case mPURA:
-    case uPURA:
+    case FOL:
+    case mFOL:
+    case uFOL:
     case duffs:
         return true;
     default:
@@ -47,9 +47,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case PURA: return QString("PURA");
-            case mPURA: return QString("mPURA");
-            case uPURA: return QString::fromUtf8("μPURA");
+            case FOL: return QString("FOL");
+            case mFOL: return QString("mFOL");
+            case uFOL: return QString::fromUtf8("μFOL");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case PURA: return QString("tPURA");
-            case mPURA: return QString("mtPURA");
-            case uPURA: return QString::fromUtf8("μtPURA");
+            case FOL: return QString("tFOL");
+            case mFOL: return QString("mtFOL");
+            case uFOL: return QString::fromUtf8("μtFOL");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -73,9 +73,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case PURA: return QString("FOL");
-            case mPURA: return QString("Milli-FOL (1 / 1" THIN_SP_UTF8 "000)");
-            case uPURA: return QString("Micro-FOL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case FOL: return QString("FOL");
+            case mFOL: return QString("Milli-FOL (1 / 1" THIN_SP_UTF8 "000)");
+            case uFOL: return QString("Micro-FOL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-FOL (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -84,9 +84,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case PURA: return QString("TestFOLs");
-            case mPURA: return QString("Milli-TestFOL (1 / 1" THIN_SP_UTF8 "000)");
-            case uPURA: return QString("Micro-TestFOL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case FOL: return QString("TestFOLs");
+            case mFOL: return QString("Milli-TestFOL (1 / 1" THIN_SP_UTF8 "000)");
+            case uFOL: return QString("Micro-TestFOL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestFOL (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -97,9 +97,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case PURA:  return 100000000;
-    case mPURA: return 100000;
-    case uPURA: return 100;
+    case FOL:  return 100000000;
+    case mFOL: return 100000;
+    case uFOL: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -109,9 +109,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case PURA: return 8;
-    case mPURA: return 5;
-    case uPURA: return 2;
+    case FOL: return 8;
+    case mFOL: return 5;
+    case uFOL: return 2;
     case duffs: return 0;
     default: return 0;
     }

@@ -125,7 +125,7 @@ struct masternode_info_t
 };
 
 //
-// The Masternode Class. For managing the PrivatePay process. It contains the input of the 100000 PURA, signature to prove
+// The Masternode Class. For managing the PrivatePay process. It contains the input of the 100000 FOL, signature to prove
 // it's the one who own that ip address and code for calculating the payment election.
 //
 class CMasternode : public masternode_info_t
@@ -251,7 +251,7 @@ public:
         return false;
     }
 
-    /// Is the input associated with collateral public key? (and there is 100000 PURA - checking if valid masternode)
+    /// Is the input associated with collateral public key? (and there is 100000 FOL - checking if valid masternode)
     bool IsInputAssociatedWithPubkey();
 
     bool IsValidNetAddr();

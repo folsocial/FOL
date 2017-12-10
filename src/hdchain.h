@@ -1,8 +1,8 @@
 // Copyright (c) 2014-2017 The Dash Core developers
 // Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT software license, see the accompanying
-#ifndef PURA_HDCHAIN_H
-#define PURA_HDCHAIN_H
+#ifndef FOL_HDCHAIN_H
+#define FOL_HDCHAIN_H
 
 #include "key.h"
 #include "sync.h"
@@ -150,4 +150,4 @@ public:
     std::string GetKeyPath() const;
 };
 
-#endif // PURA_HDCHAIN_H
+#endif // FOL_HDCHAIN_H

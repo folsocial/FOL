@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy fold.init to /etc/init.d/fold. Test by running `service fold start`.
 
 Using this script, you can adjust the path and flags to the fold program by
-setting the PURAD and FLAGS environment variables in the file
+setting the FOLD and FLAGS environment variables in the file
 /etc/sysconfig/fold. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X
