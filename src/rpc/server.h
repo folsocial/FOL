@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Pura RPC command dispatcher.
+ * FOL RPC command dispatcher.
  */
 class CRPCTable
 {

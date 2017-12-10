@@ -1,11 +1,11 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 
 #include "governance-validators.h"
 #include "univalue.h"
 #include "utilstrencodings.h"
 
-#include "test/test_pura.h"
+#include "test/test_fol.h"
 
 #include <boost/test/unit_test.hpp>
 

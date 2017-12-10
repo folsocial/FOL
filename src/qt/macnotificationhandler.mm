@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.pura.Pura-Qt";
+        return @"org.fol.FOL-Qt";
     } else {
         return [self __bundleIdentifier];
     }

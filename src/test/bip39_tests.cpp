@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 #include "key.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test/test_pura.h"
+#include "test/test_fol.h"
 #include "bip39.h"
 
 #include <boost/test/unit_test.hpp>

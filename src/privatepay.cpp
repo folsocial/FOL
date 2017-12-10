@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "privatepay.h"
@@ -429,14 +429,14 @@ void CPrivatePay::SyncTransaction(const CTransaction& tx, const CBlock* pblock)
 //TODO: Rename/move to core
 void ThreadCheckPrivatePay()
 {
-    if(fLiteMode) return; // disable all Pura specific functionality
+    if(fLiteMode) return; // disable all FOL specific functionality
 
     static bool fOneThread;
     if(fOneThread) return;
     fOneThread = true;
 
     // Make this thread recognisable as the PrivatePay thread
-    RenameThread("pura-ps");
+    RenameThread("fol-ps");
 
     unsigned int nTick = 0;
 

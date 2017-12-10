@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "reverselock.h"
-#include "test/test_pura.h"
+#include "test/test_fol.h"
 
 #include <boost/test/unit_test.hpp>
 

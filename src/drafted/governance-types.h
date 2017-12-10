@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // PuraNetwork - is the root node
-    PuraNetwork = 1000,
-    PuraNetworkVariable = 1001,
+    // FOLNetwork - is the root node
+    FOLNetwork = 1000,
+    FOLNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

@@ -1,21 +1,21 @@
 Shared Libraries
 ================
 
-## puraconsensus
+## folconsensus
 
-The purpose of this library is to make the verification functionality that is critical to Pura's consensus available to other applications, e.g. to language bindings.
+The purpose of this library is to make the verification functionality that is critical to FOL's consensus available to other applications, e.g. to language bindings.
 
 ### API
 
-The interface is defined in the C header `puraconsensus.h` located in  `src/script/puraconsensus.h`.
+The interface is defined in the C header `folconsensus.h` located in  `src/script/folconsensus.h`.
 
 #### Version
 
-`puraconsensus_version` returns an `unsigned int` with the the API version *(currently at an experimental `0`)*.
+`folconsensus_version` returns an `unsigned int` with the the API version *(currently at an experimental `0`)*.
 
 #### Script Validation
 
-`puraconsensus_verify_script` returns an `int` with the status of the verification. It will be `1` if the input script correctly spends the previous output `scriptPubKey`.
+`folconsensus_verify_script` returns an `int` with the status of the verification. It will be `1` if the input script correctly spends the previous output `scriptPubKey`.
 
 ##### Parameters
 - `const unsigned char *scriptPubKey` - The previous output script that encumbers spending.
@@ -24,18 +24,18 @@ The interface is defined in the C header `puraconsensus.h` located in  `src/scri
 - `unsigned int txToLen` - The number of bytes for the `txTo`.
 - `unsigned int nIn` - The index of the input in `txTo` that spends the `scriptPubKey`.
 - `unsigned int flags` - The script validation flags *(see below)*.
-- `puraconsensus_error* err` - Will have the error/success code for the operation *(see below)*.
+- `folconsensus_error* err` - Will have the error/success code for the operation *(see below)*.
 
 ##### Script Flags
-- `puraconsensus_SCRIPT_FLAGS_VERIFY_NONE`
-- `puraconsensus_SCRIPT_FLAGS_VERIFY_P2SH` - Evaluate P2SH ([BIP16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki)) subscripts
-- `puraconsensus_SCRIPT_FLAGS_VERIFY_DERSIG` - Enforce strict DER ([BIP66](https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki)) compliance
+- `folconsensus_SCRIPT_FLAGS_VERIFY_NONE`
+- `folconsensus_SCRIPT_FLAGS_VERIFY_P2SH` - Evaluate P2SH ([BIP16](https://github.com/bitcoin/bips/blob/master/bip-0016.mediawiki)) subscripts
+- `folconsensus_SCRIPT_FLAGS_VERIFY_DERSIG` - Enforce strict DER ([BIP66](https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki)) compliance
 
 ##### Errors
-- `puraconsensus_ERR_OK` - No errors with input parameters *(see the return value of `puraconsensus_verify_script` for the verification status)*
-- `puraconsensus_ERR_TX_INDEX` - An invalid index for `txTo`
-- `puraconsensus_ERR_TX_SIZE_MISMATCH` - `txToLen` did not match with the size of `txTo`
-- `puraconsensus_ERR_DESERIALIZE` - An error deserializing `txTo`
+- `folconsensus_ERR_OK` - No errors with input parameters *(see the return value of `folconsensus_verify_script` for the verification status)*
+- `folconsensus_ERR_TX_INDEX` - An invalid index for `txTo`
+- `folconsensus_ERR_TX_SIZE_MISMATCH` - `txToLen` did not match with the size of `txTo`
+- `folconsensus_ERR_DESERIALIZE` - An error deserializing `txTo`
 
 ### Example Implementations
 - [NBitcoin](https://github.com/NicolasDorier/NBitcoin/blob/master/NBitcoin/Script.cs#L814) (.NET Bindings)

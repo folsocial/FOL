@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package purad/pura-qt
-for Debian-based Linux systems. If you compile purad/pura-qt yourself, there are some useful files here.
+This directory contains files used to package fold/fol-qt
+for Debian-based Linux systems. If you compile fold/fol-qt yourself, there are some useful files here.
 
-## pura: URI support ##
+## fol: URI support ##
 
 
-pura-qt.desktop  (Gnome / Open Desktop)
+fol-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install pura-qt.desktop
+	sudo desktop-file-install fol-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your pura-qt binary to `/usr/bin`
-and the `../../share/pixmaps/pura128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your fol-qt binary to `/usr/bin`
+and the `../../share/pixmaps/fol128.png` to `/usr/share/pixmaps`
 
-pura-qt.protocol (KDE)
+fol-qt.protocol (KDE)
 

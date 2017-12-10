@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pura"
-            VALUE "FileDescription",    "Pura Core (GUI node for Pura)"
+            VALUE "CompanyName",        "FOL"
+            VALUE "FileDescription",    "FOL Core (GUI node for FOL)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pura-qt"
+            VALUE "InternalName",       "fol-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pura-qt.exe"
-            VALUE "ProductName",        "Pura Core"
+            VALUE "OriginalFilename",   "fol-qt.exe"
+            VALUE "ProductName",        "FOL Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

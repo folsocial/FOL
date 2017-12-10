@@ -1,4 +1,4 @@
-Source: pura
+Source: fol
 Section: utils
 Priority: optional
 Maintainer: 
@@ -24,45 +24,45 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler,
  python
 Standards-Version: 3.9.2
-Homepage: https://www.pura.one/
-Vcs-Git: git://github.com/purapay/pura.git
-Vcs-Browser: https://github.com/purapay/pura
+Homepage: https://www.fol.one/
+Vcs-Git: git://github.com/folpay/fol.git
+Vcs-Browser: https://github.com/folpay/fol
 
-Package: purad
+Package: fold
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Pura is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Pura uses peer-to-peer
+ FOL is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. FOL uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Pura Core
+ and issuing money are carried out collectively by the network. FOL Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, purad, and the CLI tool
- pura-cli to interact with the daemon.
+ This package provides the daemon, fold, and the CLI tool
+ fol-cli to interact with the daemon.
 
-Package: pura-qt
+Package: fol-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Pura is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Pura uses peer-to-peer
+ FOL is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. FOL uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Pura Core
+ and issuing money are carried out collectively by the network. FOL Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Pura-Qt, a GUI for Pura based on Qt.
+ This package provides FOL-Qt, a GUI for FOL based on Qt.
 
-Package: pura-tx
+Package: fol-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Pura is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Pura uses peer-to-peer
+ FOL is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. FOL uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Pura Core
+ and issuing money are carried out collectively by the network. FOL Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides pura-tx, a command-line transaction creation
- tool which can be used without a pura daemon.  Some means of
+ This package provides fol-tx, a command-line transaction creation
+ tool which can be used without a fol daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

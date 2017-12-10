@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "privatepay-client.h"
@@ -22,7 +22,7 @@ CPrivatePayClient privatePayClient;
 void CPrivatePayClient::ProcessMessage(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
 {
     if(fMasterNode) return;
-    if(fLiteMode) return; // ignore all Pura related functionality
+    if(fLiteMode) return; // ignore all FOL related functionality
     if(!masternodeSync.IsBlockchainSynced()) return;
 
     if(strCommand == NetMsgType::PPQUEUE) {
@@ -1401,14 +1401,14 @@ void CPrivatePayClient::UpdatedBlockTip(const CBlockIndex *pindex)
 //TODO: Rename/move to core
 void ThreadCheckPrivatePayClient(CConnman& connman)
 {
-    if(fLiteMode) return; // disable all Pura specific functionality
+    if(fLiteMode) return; // disable all FOL specific functionality
 
     static bool fOneThread;
     if(fOneThread) return;
     fOneThread = true;
 
     // Make this thread recognisable as the PrivatePay thread
-    RenameThread("pura-ps-client");
+    RenameThread("fol-ps-client");
 
     unsigned int nTick = 0;
     unsigned int nDoAutoNextRun = nTick + PRIVATEPAY_AUTO_TIMEOUT_MIN;

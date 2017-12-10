@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Pura"
-            VALUE "FileDescription",    "pura-tx (CLI Pura transaction editor utility)"
+            VALUE "CompanyName",        "FOL"
+            VALUE "FileDescription",    "fol-tx (CLI FOL transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pura-tx"
+            VALUE "InternalName",       "fol-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pura-tx.exe"
-            VALUE "ProductName",        "pura-tx"
+            VALUE "OriginalFilename",   "fol-tx.exe"
+            VALUE "ProductName",        "fol-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

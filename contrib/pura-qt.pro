@@ -19,4 +19,4 @@ FORMS += \
     ../src/qt/forms/transactiondescdialog.ui
 
 RESOURCES += \
-    ../src/qt/pura.qrc
+    ../src/qt/fol.qrc

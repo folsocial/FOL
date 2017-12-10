@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "privatepay-server.h"
@@ -19,7 +19,7 @@ CPrivatePayServer privatePayServer;
 void CPrivatePayServer::ProcessMessage(CNode* pfrom, std::string& strCommand, CDataStream& vRecv)
 {
     if(!fMasterNode) return;
-    if(fLiteMode) return; // ignore all Pura related functionality
+    if(fLiteMode) return; // ignore all FOL related functionality
     if(!masternodeSync.IsBlockchainSynced()) return;
 
     if(strCommand == NetMsgType::PPACCEPT) {
@@ -467,7 +467,7 @@ void CPrivatePayServer::ChargeFees()
 
     Being that mixing has "no fees" we need to have some kind of cost associated
     with using it to stop abuse. Otherwise it could serve as an attack vector and
-    allow endless transaction that would bloat Pura and make it unusable. To
+    allow endless transaction that would bloat FOL and make it unusable. To
     stop these kinds of attacks 1 in 10 successful transactions are charged. This
     adds up to a cost of 0.001 PURA per transaction on average.
 */
@@ -889,14 +889,14 @@ void CPrivatePayServer::SetState(PoolState nStateNew)
 //TODO: Rename/move to core
 void ThreadCheckPrivatePayServer()
 {
-    if(fLiteMode) return; // disable all Pura specific functionality
+    if(fLiteMode) return; // disable all FOL specific functionality
 
     static bool fOneThread;
     if(fOneThread) return;
     fOneThread = true;
 
     // Make this thread recognisable as the PrivatePay thread
-    RenameThread("pura-ps-server");
+    RenameThread("fol-ps-server");
 
     unsigned int nTick = 0;
 

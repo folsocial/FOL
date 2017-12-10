@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše Pura adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your FOL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše FOL adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše Pura adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your FOL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše FOL adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -234,8 +234,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -258,16 +258,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a Pura address</source>
-        <translation>Poslať mince na Pura adresu</translation>
+        <source>Send coins to a FOL address</source>
+        <translation>Poslať mince na FOL adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pura: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a Pura: URI)</translation>
+        <source>Request payments (generates QR codes and fol: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a FOL: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -294,12 +294,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Pura Core</source>
-        <translation>&amp;O Pura Core</translation>
+        <source>&amp;About FOL Core</source>
+        <translation>&amp;O FOL Core</translation>
     </message>
     <message>
-        <source>Show information about Pura Core</source>
-        <translation>Zobraziť informácie o Pura Core</translation>
+        <source>Show information about FOL Core</source>
+        <translation>Zobraziť informácie o FOL Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -362,16 +362,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your Pura addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi Pura adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your FOL addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi FOL adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pura addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými Pura adresami</translation>
+        <source>Verify messages to ensure they were signed with specified FOL addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými FOL adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -446,16 +446,16 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a pura: URI or payment request</source>
-        <translation>Otvoriť pura: URI alebo žiadosť o platbu </translation>
+        <source>Open a fol: URI or payment request</source>
+        <translation>Otvoriť fol: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Pura Core client</source>
-        <translation>Pura Core klient</translation>
+        <source>FOL Core client</source>
+        <translation>FOL Core klient</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -482,8 +482,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pura network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou Pura</numerusform><numerusform>%n aktívne spojenia so sieťou Pura</numerusform><numerusform>%n aktívnych spojení so sieťou Pura</numerusform></translation>
+        <source>%n active connection(s) to FOL network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou FOL</numerusform><numerusform>%n aktívne spojenia so sieťou FOL</numerusform><numerusform>%n aktívnych spojení so sieťou FOL</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -510,8 +510,8 @@
         <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Pura Core</source>
-        <translation>Upraviť možnosti konfigurácie Pura Core</translation>
+        <source>Modify configuration options for FOL Core</source>
+        <translation>Upraviť možnosti konfigurácie FOL Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -933,16 +933,16 @@
         <translation>Nastavenie PrivatePay</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Pura.</translation>
+        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky FOL.</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>PrivatePay bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Pura.</translation>
+        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>PrivatePay bol úspešne nastavený na základnú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky FOL.</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>PrivatePay bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky Pura.</translation>
+        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>PrivatePay bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky FOL.</translation>
     </message>
 </context>
 <context>
@@ -984,8 +984,8 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Pura address.</source>
-        <translation>Zadaná adresa "%1" nie je platná Pura adresa.</translation>
+        <source>The entered address "%1" is not a valid FOL address.</source>
+        <translation>Zadaná adresa "%1" nie je platná FOL adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1026,8 +1026,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1038,8 +1038,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Pura Core</source>
-        <translation>O Pura Core</translation>
+        <source>About FOL Core</source>
+        <translation>O FOL Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1077,16 +1077,16 @@
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Pura Core.</source>
-        <translation>Vitajte v Pura Core.</translation>
+        <source>Welcome to FOL Core.</source>
+        <translation>Vitajte v FOL Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pura Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude Pura Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where FOL Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude FOL Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Pura Core will download and store a copy of the Pura block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pura Core stiahne a uloží kópiu reťazca blokov Pura. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>FOL Core will download and store a copy of the FOL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FOL Core stiahne a uloží kópiu reťazca blokov FOL. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1097,8 +1097,8 @@
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1222,20 +1222,20 @@
         <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
-        <source>Amount of Pura to keep anonymized</source>
-        <translation>Suma Pura ktorú držať anonymne </translation>
+        <source>Amount of FOL to keep anonymized</source>
+        <translation>Suma FOL ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <source>Automatically start Pura Core after logging in to the system.</source>
-        <translation>Automaticky spustiť Pura Core po prihlásení do systému.</translation>
+        <source>Automatically start FOL Core after logging in to the system.</source>
+        <translation>Automaticky spustiť FOL Core po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start Pura Core on system login</source>
-        <translation>&amp;Spusť Pura po prihlásení do systému</translation>
+        <source>&amp;Start FOL Core on system login</source>
+        <translation>&amp;Spusť FOL po prihlásení do systému</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
@@ -1258,8 +1258,8 @@
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Pura network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete Pura cez proxy SOCKS5.</translation>
+        <source>Connect to the FOL network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete FOL cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1347,9 +1347,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/pura/</source>
+https://www.transifex.com/projects/p/fol/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/pura/</translation>
+https://www.transifex.com/projects/p/fol/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1423,8 +1423,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pura network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou Pura akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FOL network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou FOL akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1653,8 +1653,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start pura: click-to-pay handler</source>
-        <translation>Pura sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start fol: click-to-pay handler</source>
+        <translation>FOL sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Pura address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou Pura adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid FOL address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou FOL adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1747,8 +1747,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Pura address (e.g. %1)</source>
-        <translation>Zadajte Pura adresu (e.g. %1)</translation>
+        <source>Enter a FOL address (e.g. %1)</source>
+        <translation>Zadajte FOL adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2096,8 +2096,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť Pura.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť FOL.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2108,8 +2108,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť Pura.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť FOL.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2365,8 +2365,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for pura transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po Pura transakciách väčší ako dokáže sieť Pura spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for fol transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po FOL transakciách väčší ako dokáže sieť FOL spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2541,8 +2541,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pura address</source>
-        <translation>Upozornenie: Neplatná Pura adresa</translation>
+        <source>Warning: Invalid FOL address</source>
+        <translation>Upozornenie: Neplatná FOL adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2564,8 +2564,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The Pura address to send the payment to</source>
-        <translation>Pura adresa pre poslanie platby</translation>
+        <source>The FOL address to send the payment to</source>
+        <translation>FOL adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2604,8 +2604,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pura: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pura network.</source>
-        <translation>Správa ktorá bola pripojená ku pura: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť Pura.</translation>
+        <source>A message that was attached to the fol: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FOL network.</source>
+        <translation>Správa ktorá bola pripojená ku fol: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť FOL.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2623,8 +2623,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pura Core is shutting down...</source>
-        <translation>Pura core sa vypína...</translation>
+        <source>FOL Core is shutting down...</source>
+        <translation>FOL core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2642,8 +2642,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The Pura address to sign the message with</source>
-        <translation>Pura adresa na podpísanie správy</translation>
+        <source>The FOL address to sign the message with</source>
+        <translation>FOL adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2674,8 +2674,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pura address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto Pura adresu</translation>
+        <source>Sign the message to prove you own this FOL address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto FOL adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2694,12 +2694,12 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Overiť správu...</translation>
     </message>
     <message>
-        <source>The Pura address the message was signed with</source>
-        <translation>Adresa Pura s ktorou bola podpísaná správa</translation>
+        <source>The FOL address the message was signed with</source>
+        <translation>Adresa FOL s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pura address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou Pura adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified FOL address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou FOL adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2765,8 +2765,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2777,8 +2777,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Pura Core developers</source>
-        <translation>Vývojári Pura Core</translation>
+        <source>The FOL Core developers</source>
+        <translation>Vývojári FOL Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3325,14 +3325,14 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
 </context>
 <context>
-    <name>pura-core</name>
+    <name>fol-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pura Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. Pura Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. FOL Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. FOL Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3371,8 +3371,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pura Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. Pura Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. FOL Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. FOL Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3631,8 +3631,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Autorské práva (C) 2009-%i Vývojári Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Pura Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra Pura</translation>
+        <source>Copyright (C) 2014-%i The FOL Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra FOL</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -3643,8 +3643,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pura Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Pura Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FOL Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu FOL Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -3687,8 +3687,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Informácie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Pura Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. Pura Core sa vypína.</translation>
+        <source>Initialization sanity check failed. FOL Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. FOL Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3895,8 +3895,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Väčšia hodnota ako dovoľuje fronta PrivatePay.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pura Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte Pura Core</translation>
+        <source>Wallet needed to be rewritten: restart FOL Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte FOL Core</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -3947,8 +3947,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Disable all Pura specific functionality (Masternodes, PrivatePay, InstaPay, Governance) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre Pura (Masternodes, PrivatePay, InstaPay, Vláda) (0-1, predvolené: %u)</translation>
+        <source>Disable all FOL specific functionality (Masternodes, PrivatePay, InstaPay, Governance) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre FOL (Masternodes, PrivatePay, InstaPay, Vláda) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Enable InstaPay, show confirmations for locked transactions (0-1, default: %u)</source>
@@ -3983,8 +3983,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Celkové maximum poplatkov (v %s) pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Pura Core will not work properly.</source>
-        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, Pura Core nebude pracovať správne.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong FOL Core will not work properly.</source>
+        <translation>Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, FOL Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>PrivatePay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

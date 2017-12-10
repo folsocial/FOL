@@ -1,12 +1,12 @@
-# bash programmable completion for purad(1) and pura-cli(1)
+# bash programmable completion for fold(1) and fol-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have purad && {
+have fold && {
 
-# call $purad for RPC
-_pura_rpc() {
+# call $fold for RPC
+_fol_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _pura_rpc() {
                 ;;
         esac
     done
-    $purad "${rpcargs[@]}" "$@"
+    $fold "${rpcargs[@]}" "$@"
 }
 
-# Add pura accounts to COMPREPLY
-_pura_accounts() {
+# Add fol accounts to COMPREPLY
+_fol_accounts() {
     local accounts
-    accounts=$(_pura_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_fol_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_purad() {
+_fold() {
     local cur prev words=() cword
-    local purad
+    local fold
 
-    # save and use original argument to invoke purad
-    # purad might not be in $PATH
-    purad="$1"
+    # save and use original argument to invoke fold
+    # fold might not be in $PATH
+    fold="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _purad() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _pura_accounts
+                _fol_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _purad() {
                 return 0
                 ;;
             move|setaccount)
-                _pura_accounts
+                _fol_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _purad() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _pura_accounts
+            _fol_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _purad() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($purad --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($fold --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_pura_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_fol_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _purad() {
     esac
 }
 
-complete -F _purad purad pura-cli
+complete -F _fold fold fol-cli
 }
 
 # Local variables:

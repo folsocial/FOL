@@ -1,5 +1,5 @@
 ---
-name: "pura-osx-1.0.0"
+name: "fol-osx-1.0.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -29,8 +29,8 @@ packages:
 - "fonts-tuffy"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/puracore/pura.git"
-  "dir": "pura"
+- "url": "https://github.com/folcore/fol.git"
+  "dir": "fol"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
@@ -72,7 +72,7 @@ script: |
     done
   done
   export PATH=${WRAP_DIR}:${PATH}
-  cd pura
+  cd fol
   BASEPREFIX=`pwd`/depends
   mkdir -p ${BASEPREFIX}/SDKs
   tar -C ${BASEPREFIX}/SDKs -xf ${BUILD_DIR}/MacOSX10.11.sdk.tar.gz
@@ -84,13 +84,13 @@ script: |
   ./autogen.sh
   ./configure --disable-tests --prefix=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`
   make dist
-  SOURCEDIST=`echo pura-*.tar.gz`
+  SOURCEDIST=`echo fol-*.tar.gz`
   DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
   # Correct tar file order
   mkdir -p temp
   pushd temp
   tar xf ../$SOURCEDIST
-  find pura-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
+  find fol-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ../$SOURCEDIST
   popd
   ORIGPATH="$PATH"
   # Extract the release tarball into a dir for each host and build
@@ -116,7 +116,7 @@ script: |
     find . | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | gzip -9n > ${OUTDIR}/${DISTNAME}-osx-unsigned.tar.gz
     popd
     make deploy
-    ${WRAP_DIR}/dmg dmg Pura.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
+    ${WRAP_DIR}/dmg dmg FOL.dmg ${OUTDIR}/${DISTNAME}-osx-unsigned.dmg
     cd installed
     find . -name "lib*.la" -delete
     find . -name "lib*.a" -delete

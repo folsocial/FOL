@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CPuraNetwork: PURA NETWORK (ROOT)
+	CFOLNetwork: PURA NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CPuraProject> vecProjects;
+		vector<CFOLProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CPuraProject:
+	CFOLProject:
 	has:
 		name
 		employees

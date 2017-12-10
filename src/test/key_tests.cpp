@@ -9,7 +9,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test/test_pura.h"
+#include "test/test_fol.h"
 
 #include <string>
 #include <vector>

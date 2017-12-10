@@ -5,7 +5,7 @@
 #include "support/pagelocker.h"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pura-config.h"
+#include "config/fol-config.h"
 #endif
 
 #ifdef WIN32

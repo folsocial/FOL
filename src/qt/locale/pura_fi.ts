@@ -62,12 +62,12 @@
         <translation>Vastaanottava osoite</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat Pura osoitteesi maksujen lähetykseen. Tarkista aina lähetettävä määrä ja vastaanottajan osoite ennen kuin lähetät varoja.</translation>
+        <source>These are your FOL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat FOL osoitteesi maksujen lähetykseen. Tarkista aina lähetettävä määrä ja vastaanottajan osoite ennen kuin lähetät varoja.</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat Pura osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin siirtotapahtumalle.</translation>
+        <source>These are your FOL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat FOL osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin siirtotapahtumalle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Pura lompakon salaus</translation>
+        <translation>FOL lompakon salaus</translation>
     </message>
     <message>
         <source>Change passphrase</source>
@@ -188,8 +188,8 @@
         <translation>Anna lompakon vanha ja uusi salasana.</translation>
     </message>
     <message>
-        <source>Pura Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your puras from being stolen by malware infecting your computer.</source>
-        <translation>Pura Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Puraiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <source>FOL Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fols from being stolen by malware infecting your computer.</source>
+        <translation>FOL Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää FOLiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,8 +242,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,16 +266,16 @@
         <translation>L&amp;ähetä</translation>
     </message>
     <message>
-        <source>Send coins to a Pura address</source>
-        <translation>Lähetä varoja Pura osoitteeseen</translation>
+        <source>Send coins to a FOL address</source>
+        <translation>Lähetä varoja FOL osoitteeseen</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pura: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja Pura: URIt)</translation>
+        <source>Request payments (generates QR codes and fol: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja FOL: URIt)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -302,12 +302,12 @@
         <translation>Sulje ohjelma</translation>
     </message>
     <message>
-        <source>&amp;About Pura Core</source>
-        <translation>Tietoja &amp;Pura Core:sta</translation>
+        <source>&amp;About FOL Core</source>
+        <translation>Tietoja &amp;FOL Core:sta</translation>
     </message>
     <message>
-        <source>Show information about Pura Core</source>
-        <translation>Näytä tietoja Pura Core:sta</translation>
+        <source>Show information about FOL Core</source>
+        <translation>Näytä tietoja FOL Core:sta</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -327,7 +327,7 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Pura pääikkuna</translation>
+        <translation>Näytä tai piilota FOL pääikkuna</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -370,16 +370,16 @@
         <translation>&amp;Allekirjoita Viesti...</translation>
     </message>
     <message>
-        <source>Sign messages with your Pura addresses to prove you own them</source>
-        <translation>Allekirjoita viestit Pura osoitteillasi todistaaksesi että omistat ne</translation>
+        <source>Sign messages with your FOL addresses to prove you own them</source>
+        <translation>Allekirjoita viestit FOL osoitteillasi todistaaksesi että omistat ne</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Tarkista Viesti...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pura addresses</source>
-        <translation>Tarkista viestit ollaksesi varma että ne on allekirjoitettu määritetyillä Pura osoitteilla</translation>
+        <source>Verify messages to ensure they were signed with specified FOL addresses</source>
+        <translation>Tarkista viestit ollaksesi varma että ne on allekirjoitettu määritetyillä FOL osoitteilla</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -454,16 +454,16 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a pura: URI or payment request</source>
-        <translation>Avaa Pura: URI tai maksupyyntö</translation>
+        <source>Open a fol: URI or payment request</source>
+        <translation>Avaa FOL: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Pura Core client</source>
-        <translation>Pura Core asiakasohjelma</translation>
+        <source>FOL Core client</source>
+        <translation>FOL Core asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -490,8 +490,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pura network</source>
-        <translation><numerusform>%n aktiivinen yhteys Pura verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Pura verkkoon</numerusform></translation>
+        <source>%n active connection(s) to FOL network</source>
+        <translation><numerusform>%n aktiivinen yhteys FOL verkkoon</numerusform><numerusform>%n aktiivista yhteyttä FOL verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -518,8 +518,8 @@
         <translation><numerusform>%n tunti</numerusform><numerusform>%n tuntia</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Pura Core</source>
-        <translation>Muuta Pura Core asetuksia</translation>
+        <source>Modify configuration options for FOL Core</source>
+        <translation>Muuta FOL Core asetuksia</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -534,8 +534,8 @@
         <translation>Avaa Masternode asetustiedosto</translation>
     </message>
     <message>
-        <source>Show the Pura Core help message to get a list with possible Pura Core command-line options</source>
-        <translation>Näytä Pura Core ohjelista komentorivin valinnoista</translation>
+        <source>Show the FOL Core help message to get a list with possible FOL Core command-line options</source>
+        <translation>Näytä FOL Core ohjelista komentorivin valinnoista</translation>
     </message>
     <message>
         <source>&amp;PrivatePay information</source>
@@ -957,16 +957,16 @@
         <translation>PrivatePay Asetukset</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>PrivatePay on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain Pura asetuksista.</translation>
+        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>PrivatePay on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain FOL asetuksista.</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>PrivatePay on asetettu korkean tason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain Pura asetuksista.</translation>
+        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>PrivatePay on asetettu korkean tason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain FOL asetuksista.</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>PrivatePay on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain Pura asetuksista.</translation>
+        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>PrivatePay on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain FOL asetuksista.</translation>
     </message>
 </context>
 <context>
@@ -1008,8 +1008,8 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Pura address.</source>
-        <translation>Annettu osoite "%1" ei ole pätevä Pura osoite.</translation>
+        <source>The entered address "%1" is not a valid FOL address.</source>
+        <translation>Annettu osoite "%1" ei ole pätevä FOL osoite.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1050,8 +1050,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,8 +1062,8 @@
         <translation>(%1-bittinen)</translation>
     </message>
     <message>
-        <source>About Pura Core</source>
-        <translation>Tietoja Pura Core:sta</translation>
+        <source>About FOL Core</source>
+        <translation>Tietoja FOL Core:sta</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1098,8 +1098,8 @@
         <translation>PrivatePay tietoja</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivatePay Basics&lt;/h3&gt; PrivatePay gives you true financial privacy by obscuring the origins of your funds. All the Pura in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivatePay uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivatePay process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 PURA, 0.1 PURA, 1 PURA and 10 PURA -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivatePay makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivatePay disabled. &lt;hr&gt;For more info see &lt;a href="https://purapay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://purapay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;PrivatePay perusteet&lt;/h3&gt; PrivatePay tarjoaa yksityisyyden hämärtämällä varojesi alkuperäisen osoitteen. Kaikki Pura:it lompakossasi muodostuvat erillisistä "syötteistä", joita voit ajatella erillisinä kolikkoina.&lt;br&gt; PrivatePay käyttää innovatiivista prosessia sekoittaakseen lompakkosi syötteet kahden muun ihmisen syötteisiin, siirtämättä varoja pois lompakostasi. Varojesi kontrolli pysyy aina sinulla.&lt;hr&gt; &lt;b&gt; PrivatePay prosessi toimii seuraavasti:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay aloittaa pilkkomalla siirtotapahtumiesi syötteet pienemmiksi standardi arvoiksi. Nämä arvot ovat 0.01 PURA, 0.1 PURA, 1 PURA ja 10 PURA.&lt;/li&gt; &lt;li&gt;Sitten lompakkosi lähettää pyynnön verkon palvelimille, joita kutsutaan "masternode:iksi". Masternodet saavat tiedon että haluat sekoittaa pilkottuja standardi arvoja. Mitään tunnistetietoja ei lähetetä masternode:ille, ne eivät koskaan tiedä "kuka" olet.&lt;/li&gt; &lt;li&gt;Kun 2 muuta käyttäjää ilmoittaa että he haluavat myös sekoittaa varoja, alkaa sekoitus-sessio. Masternodet sekoittavat standardi arvot ja ilmoittavat kaikille 3:lle käyttäjän lompakoille että maksavat sekoitetut arvot takaisin itselleen. Lompakkosi maksaa nuo sekoitetut arvot suoraan itselleen, mutta eri osoitteeseen (vaihto-osoite).&lt;/li&gt; &lt;li&gt;Jotta varojesi alkuperäinen lähde hämärretään, lompakkosi suorittaa tämän prosessin useita kertoja kaikilla standardi arvoilla. Aina kun prosessi on valmis, sitä kutsutaan "kierrokseksi". Jokainen PrivatePay kierros tekee eksponentiaalisesti vaikeammaksi löytää varojesi alkuperäisen osoiteen.&lt;/li&gt; &lt;li&gt;Tämä sekoitusprosessi tapahtuu taustalla ilman käyttäjän toimenpiteitä. Kun haluat myöhemmin tehdä anonyymin varojen siirron, on varasi valmiiksi sekoitettu (anonymisoitu). Erillistä sekoitusta/odotusta ei tarvita.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;TÄRKEÄÄ:&lt;/b&gt; Lompakkosi sisältää vain 1000 "vaihto-osoitetta". Aina kun sekoitustapahtuma tehdään, max 9 osoitetta käytetään. Tämä tarkoittaa sitä että nuo 1000 osoitetta kestää noin 100 sekoitustapahtumaa. Kun 900 osoitetta on käytetty, lompakkosi täytyy tehdä lisää osoitteita. Se voi tehdä niitä vain jos automaattinen varmistus on käytössä.&lt;br&gt; Tästä seuraa että jos varmistus ei ole käytössä, myös PrivatePay on pois käytöstä. &lt;hr&gt;Lisätietoja &lt;a href="https://purapay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://purapay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt; </translation>
+        <source>&lt;h3&gt;PrivatePay Basics&lt;/h3&gt; PrivatePay gives you true financial privacy by obscuring the origins of your funds. All the FOL in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivatePay uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivatePay process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 PURA, 0.1 PURA, 1 PURA and 10 PURA -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivatePay makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivatePay disabled. &lt;hr&gt;For more info see &lt;a href="https://folpay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://folpay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;PrivatePay perusteet&lt;/h3&gt; PrivatePay tarjoaa yksityisyyden hämärtämällä varojesi alkuperäisen osoitteen. Kaikki FOL:it lompakossasi muodostuvat erillisistä "syötteistä", joita voit ajatella erillisinä kolikkoina.&lt;br&gt; PrivatePay käyttää innovatiivista prosessia sekoittaakseen lompakkosi syötteet kahden muun ihmisen syötteisiin, siirtämättä varoja pois lompakostasi. Varojesi kontrolli pysyy aina sinulla.&lt;hr&gt; &lt;b&gt; PrivatePay prosessi toimii seuraavasti:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay aloittaa pilkkomalla siirtotapahtumiesi syötteet pienemmiksi standardi arvoiksi. Nämä arvot ovat 0.01 PURA, 0.1 PURA, 1 PURA ja 10 PURA.&lt;/li&gt; &lt;li&gt;Sitten lompakkosi lähettää pyynnön verkon palvelimille, joita kutsutaan "masternode:iksi". Masternodet saavat tiedon että haluat sekoittaa pilkottuja standardi arvoja. Mitään tunnistetietoja ei lähetetä masternode:ille, ne eivät koskaan tiedä "kuka" olet.&lt;/li&gt; &lt;li&gt;Kun 2 muuta käyttäjää ilmoittaa että he haluavat myös sekoittaa varoja, alkaa sekoitus-sessio. Masternodet sekoittavat standardi arvot ja ilmoittavat kaikille 3:lle käyttäjän lompakoille että maksavat sekoitetut arvot takaisin itselleen. Lompakkosi maksaa nuo sekoitetut arvot suoraan itselleen, mutta eri osoitteeseen (vaihto-osoite).&lt;/li&gt; &lt;li&gt;Jotta varojesi alkuperäinen lähde hämärretään, lompakkosi suorittaa tämän prosessin useita kertoja kaikilla standardi arvoilla. Aina kun prosessi on valmis, sitä kutsutaan "kierrokseksi". Jokainen PrivatePay kierros tekee eksponentiaalisesti vaikeammaksi löytää varojesi alkuperäisen osoiteen.&lt;/li&gt; &lt;li&gt;Tämä sekoitusprosessi tapahtuu taustalla ilman käyttäjän toimenpiteitä. Kun haluat myöhemmin tehdä anonyymin varojen siirron, on varasi valmiiksi sekoitettu (anonymisoitu). Erillistä sekoitusta/odotusta ei tarvita.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;TÄRKEÄÄ:&lt;/b&gt; Lompakkosi sisältää vain 1000 "vaihto-osoitetta". Aina kun sekoitustapahtuma tehdään, max 9 osoitetta käytetään. Tämä tarkoittaa sitä että nuo 1000 osoitetta kestää noin 100 sekoitustapahtumaa. Kun 900 osoitetta on käytetty, lompakkosi täytyy tehdä lisää osoitteita. Se voi tehdä niitä vain jos automaattinen varmistus on käytössä.&lt;br&gt; Tästä seuraa että jos varmistus ei ole käytössä, myös PrivatePay on pois käytöstä. &lt;hr&gt;Lisätietoja &lt;a href="https://folpay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://folpay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt; </translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1121,17 +1121,17 @@
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to Pura Core.</source>
-        <translation>Pura Core - Tervetuloa.</translation>
+        <source>Welcome to FOL Core.</source>
+        <translation>FOL Core - Tervetuloa.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pura Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Pura Core tallettaa datansa.
+        <source>As this is the first time the program is launched, you can choose where FOL Core will store its data.</source>
+        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne FOL Core tallettaa datansa.
 Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd levyltä, ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
     </message>
     <message>
-        <source>Pura Core will download and store a copy of the Pura block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pura Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <source>FOL Core will download and store a copy of the FOL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FOL Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1142,8 +1142,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Määritä oma hakemisto:</translation>
     </message>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1331,20 +1331,20 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>(0 = auto, &lt;0 = jätä näin monta prosessorin ydintä vapaaksi)</translation>
     </message>
     <message>
-        <source>Amount of Pura to keep anonymized</source>
-        <translation>Pura määrä joka pidetään anonymisoituna</translation>
+        <source>Amount of FOL to keep anonymized</source>
+        <translation>FOL määrä joka pidetään anonymisoituna</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>&amp;Lompakko</translation>
     </message>
     <message>
-        <source>Automatically start Pura Core after logging in to the system.</source>
-        <translation>Käynnistä Pura Core automaattisesti kun järjestelmään kirjaudutaan.</translation>
+        <source>Automatically start FOL Core after logging in to the system.</source>
+        <translation>Käynnistä FOL Core automaattisesti kun järjestelmään kirjaudutaan.</translation>
     </message>
     <message>
-        <source>&amp;Start Pura Core on system login</source>
-        <translation>&amp;Käynnistä Pura Core järjestelmään kirjauduttaessa</translation>
+        <source>&amp;Start FOL Core on system login</source>
+        <translation>&amp;Käynnistä FOL Core järjestelmään kirjauduttaessa</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1391,8 +1391,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Tämä määrä toimii rajana sekoituksen keskeytykselle kun PrivatePay sen saavuttaa.</translation>
     </message>
     <message>
-        <source>Automatically open the Pura Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa automaattisesti Pura Core asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the FOL Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa automaattisesti FOL Core asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1403,8 +1403,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Salli sisään tulevat yhteydet</translation>
     </message>
     <message>
-        <source>Connect to the Pura network through a SOCKS5 proxy.</source>
-        <translation>Kytkeydy Pura verkkoon käyttäen SOCKS5 proxy:a.</translation>
+        <source>Connect to the FOL network through a SOCKS5 proxy.</source>
+        <translation>Kytkeydy FOL verkkoon käyttäen SOCKS5 proxy:a.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1415,8 +1415,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Ikkunaa suljettaessa pienennä ohjelman ikkuna lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pura Core.</source>
-        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun Pura Core asiakasohjelma käynnistetään uudelleen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FOL Core.</source>
+        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun FOL Core asiakasohjelma käynnistetään uudelleen.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1487,8 +1487,8 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Pura network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Kytkeydy Pura verkkoon käyttäen erillistä SOCKS5 proxy:a Tor piilopalveluihin.</translation>
+        <source>Connect to the FOL network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Kytkeydy FOL verkkoon käyttäen erillistä SOCKS5 proxy:a Tor piilopalveluihin.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1520,9 +1520,9 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/pura/</source>
+https://www.transifex.com/projects/p/fol/</source>
         <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
-https://www.transifex.com/projects/p/pura/</translation>
+https://www.transifex.com/projects/p/fol/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1600,8 +1600,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pura network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti Pura verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FOL network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti FOL verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1869,8 +1869,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start pura: click-to-pay handler</source>
-        <translation>Ei voi käynnistää Puraia: click-to-pay handler</translation>
+        <source>Cannot start fol: click-to-pay handler</source>
+        <translation>Ei voi käynnistää FOLia: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1893,8 +1893,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Pura address or malformed URI parameters.</source>
-        <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä Pura osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
+        <source>URI cannot be parsed! This can be caused by an invalid FOL address or malformed URI parameters.</source>
+        <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä FOL osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1975,8 +1975,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Pura address (e.g. %1)</source>
-        <translation>Syötä Pura osoite (esim. %1)</translation>
+        <source>Enter a FOL address (e.g. %1)</source>
+        <translation>Syötä FOL osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2113,8 +2113,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Muistin käyttö</translation>
     </message>
     <message>
-        <source>Open the Pura Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Pura Core debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
+        <source>Open the FOL Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa FOL Core debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2325,8 +2325,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Poista Solmu kieltolistalta</translation>
     </message>
     <message>
-        <source>Welcome to the Pura Core RPC console.</source>
-        <translation>Tervetuloa Pura Core RPC konsoliin.</translation>
+        <source>Welcome to the FOL Core RPC console.</source>
+        <translation>Tervetuloa FOL Core RPC konsoliin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2396,8 +2396,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Uudelleen käytä vastaanottavaa osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Pura verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana FOL verkkoon.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2408,8 +2408,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Valinnainen nimi liitetään uuteen vastaanottavaan osoitteeseen.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana Pura verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana FOL verkkoon.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2665,7 +2665,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for pura transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for fol transactions than the network can process.</source>
         <translation>Minimi siirtomaksun maksaminen on ok niin kauan kun siirtotapahtumien määrä on pienempi kuin tila lohkoissa.&lt;br /&gt;Mutta ota huomioon että tämä voi johtaa siirtotapahtumaan jota ei vahvisteta koskaan, jos siirtotapahtumia on enemmän kuin verkko voi käsitellä.</translation>
     </message>
     <message>
@@ -2865,8 +2865,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Siirtotapahtuma hylättiin! Tämä saattaa tapahtua jos lompakossa olevat varat on jo kulutettu, kuten jos käytät kopiota wallet.dat tiedostosta ja varat oli jo käytetty mutta ei merkattu täällä.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pura address</source>
-        <translation>Varoitus: Virheellinen Pura osoite</translation>
+        <source>Warning: Invalid FOL address</source>
+        <translation>Varoitus: Virheellinen FOL osoite</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2888,8 +2888,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Maksun &amp;saaja:</translation>
     </message>
     <message>
-        <source>The Pura address to send the payment to</source>
-        <translation>Pura osoite johon maksu lähetetään</translation>
+        <source>The FOL address to send the payment to</source>
+        <translation>FOL osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2924,7 +2924,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Määrä:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Pura than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of FOL than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Siirtomaksu vähennetään lähetettävästä summasta. Vastaanottaja saa pienemmän summan kuin mitä laitoit määrä kenttään. Jos useampia vastaanottajia on valittu, siirtomaksu jaetaan tasan.</translation>
     </message>
     <message>
@@ -2936,8 +2936,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Viesti:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pura: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pura network.</source>
-        <translation>Viesti joka liitettiin Pura: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Pura verkkoon.</translation>
+        <source>A message that was attached to the fol: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FOL network.</source>
+        <translation>Viesti joka liitettiin FOL: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä FOL verkkoon.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2963,8 +2963,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pura Core is shutting down...</source>
-        <translation>Pura Core sulkeutuu...</translation>
+        <source>FOL Core is shutting down...</source>
+        <translation>FOL Core sulkeutuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2982,12 +2982,12 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Pura sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive FOL sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Voit allekirjoittaa viestit/sopimukset omilla osoitteillasi todistaaksesi että omistat ne. Ole huolellinen että et allekirjoita mitään epämääräistä, satunnaista, phishing-hyökkäjä voi huijata sinua allekirjoittamaan henkilöllisyytesi omasta puolestaan. Allekirjoita vain yksityiskohtaisesti täytetty selvitys johon sitoudut.</translation>
     </message>
     <message>
-        <source>The Pura address to sign the message with</source>
-        <translation>Pura osoite jolla viesti allekirjoitetaan</translation>
+        <source>The FOL address to sign the message with</source>
+        <translation>FOL osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3018,8 +3018,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Kopioi tämän hetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pura address</source>
-        <translation>Allekirjoita viesti todistaaksesi että omistat tämän Pura osoitteen</translation>
+        <source>Sign the message to prove you own this FOL address</source>
+        <translation>Allekirjoita viesti todistaaksesi että omistat tämän FOL osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3042,12 +3042,12 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Syötä allekirjoittava osoite, viesti (varmista että kopioit rivinvaihdot, välilyönnit, tabulaattorit, jne täsmälleen oikein) ja allekirjoitus alla oleviin kenttiin varmistaaksesi allekirjoituksen aitouden. Varo lukemasta enempää allekirjoitukseen kuin kuin mitä itse viestissä on, välttääksesi man-in-the-middle hyökkäyksen. Huom. tämä todistaa vain että allekirjoittava osapuoli vastaanottaa osoitteella, se ei voi todistaa lähettäjää.</translation>
     </message>
     <message>
-        <source>The Pura address the message was signed with</source>
-        <translation>Pura osoite jolla viesti on allekirjoitettu</translation>
+        <source>The FOL address the message was signed with</source>
+        <translation>FOL osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pura address</source>
-        <translation>Tarkista että viesti on allekirjoitettu määritetyllä Pura osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified FOL address</source>
+        <translation>Tarkista että viesti on allekirjoitettu määritetyllä FOL osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3113,8 +3113,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3125,8 +3125,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Bitcoin Core kehittäjät</translation>
     </message>
     <message>
-        <source>The Pura Core developers</source>
-        <translation>Pura Core kehittäjät</translation>
+        <source>The FOL Core developers</source>
+        <translation>FOL Core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3634,7 +3634,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Puraeja</translation>
+        <translation>Lähetä FOLeja</translation>
     </message>
     <message>
         <source>InstaPay doesn't support sending values that high yet. Transactions are currently limited to %1 PURA.</source>
@@ -3685,14 +3685,14 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
 </context>
 <context>
-    <name>pura-core</name>
+    <name>fol-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pura Core is probably already running.</source>
-        <translation>Ei voida lukita data hakemistoa %s. Pura Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. FOL Core is probably already running.</source>
+        <translation>Ei voida lukita data hakemistoa %s. FOL Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3731,12 +3731,12 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pura Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Pura Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. FOL Core is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. FOL Core on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Varoitus: Pura verkossa on ristiriitoja! Louhijat näyttävät kokevan virhetilanteita.</translation>
+        <translation>Varoitus: FOL verkossa on ristiriitoja! Louhijat näyttävät kokevan virhetilanteita.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
@@ -4015,8 +4015,8 @@ Käännös päivitetty: 11.3.2017 by AjM.</translation>
         <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Pura Core Developers</source>
-        <translation>Copyright (C) 2014-%i Pura Core Kehittäjät</translation>
+        <source>Copyright (C) 2014-%i The FOL Core Developers</source>
+        <translation>Copyright (C) 2014-%i FOL Core Kehittäjät</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4027,8 +4027,8 @@ Käännös päivitetty: 11.3.2017 by AjM.</translation>
         <translation>Virhe masternode:en kytkeytymisessä.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pura Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Pura Core:sta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FOL Core</source>
+        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version FOL Core:sta</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -4071,8 +4071,8 @@ Käännös päivitetty: 11.3.2017 by AjM.</translation>
         <translation>Tietoja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Pura Core is shutting down.</source>
-        <translation>Alkuperäisyyden tarkistus epäonnistui. Pura Core sulkeutuu.</translation>
+        <source>Initialization sanity check failed. FOL Core is shutting down.</source>
+        <translation>Alkuperäisyyden tarkistus epäonnistui. FOL Core sulkeutuu.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4303,8 +4303,8 @@ Käännös päivitetty: 11.3.2017 by AjM.</translation>
         <translation>Määrä on enemmän kuin PrivatePay varannon maksimi sallii.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pura Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Pura Core uudestaan viimeistelyä varten</translation>
+        <source>Wallet needed to be rewritten: restart FOL Core to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä FOL Core uudestaan viimeistelyä varten</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4355,8 +4355,8 @@ Käännös päivitetty: 11.3.2017 by AjM.</translation>
         <translation>Pidä enintään &lt;n&gt; ei yhdistettyä siirtotapahtumaa muistissa (oletus: %u)</translation>
     </message>
     <message>
-        <source>Disable all Pura specific functionality (Masternodes, PrivatePay, InstaPay, Governance) (0-1, default: %u)</source>
-        <translation>Kytke pois käytöstä kaikki Pura:in erityistoiminnot (Masternodet, PrivatePay, InstaPay, Budjetointi) (0-1, oletus: %u)</translation>
+        <source>Disable all FOL specific functionality (Masternodes, PrivatePay, InstaPay, Governance) (0-1, default: %u)</source>
+        <translation>Kytke pois käytöstä kaikki FOL:in erityistoiminnot (Masternodet, PrivatePay, InstaPay, Budjetointi) (0-1, oletus: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4435,8 +4435,8 @@ Käännös päivitetty: 11.3.2017 by AjM.</translation>
         <translation>Yksittäisen siirtotapahtuman maksimi siirtomaksu (%s), jos tämä asetetaan liian matalaksi, se voi keskeyttää isot siirtotapahtumat (oletus: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Pura Core will not work properly.</source>
-        <translation>Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! Pura ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong FOL Core will not work properly.</source>
+        <translation>Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! FOL ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
     </message>
     <message>
         <source>PrivatePay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

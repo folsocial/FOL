@@ -1,6 +1,6 @@
 [Protocol]
-exec=pura-qt '%u'
-protocol=pura
+exec=fol-qt '%u'
+protocol=fol
 input=none
 output=none
 helper=true

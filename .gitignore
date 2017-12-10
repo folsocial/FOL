@@ -6,13 +6,13 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/pura
-src/purad
-src/pura-cli
-src/pura-tx
-src/test/test_pura
-src/qt/test/test_pura-qt
-src/bench/bench_pura
+src/fol
+src/fold
+src/fol-cli
+src/fol-tx
+src/test/test_fol
+src/qt/test/test_fol-qt
+src/bench/bench_fol
 
 # autoreconf
 Makefile.in
@@ -35,8 +35,8 @@ config.log
 config.status
 configure
 libtool
-src/config/pura-config.h
-src/config/pura-config.h.in
+src/config/fol-config.h
+src/config/fol-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -62,7 +62,7 @@ libconftest.dylib*
 *.o
 *.o-*
 *.patch
-.pura
+.fol
 *.a
 *.pb.cc
 *.pb.h
@@ -81,12 +81,12 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-pura-qt
-Pura-Qt.app
+fol-qt
+FOL-Qt.app
 
 # Unit-tests
 Makefile.test
-pura-qt_test
+fol-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -100,7 +100,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_pura.coverage/
+test_fol.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -124,11 +124,11 @@ share/BitcoindComparisonTool.jar
 /doc/doxygen/
 
 libdashconsensus.pc
-src/qt/pura-qt.bash
+src/qt/fol-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-pura-cli
-purad
-pura-qt
+fol-cli
+fold
+fol-qt
 make

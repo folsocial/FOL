@@ -1,25 +1,25 @@
-# /etc/conf.d/purad: config file for /etc/init.d/purad
+# /etc/conf.d/fold: config file for /etc/init.d/fold
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/pura/pura.conf"
+#BITCOIND_CONFIGFILE="/etc/fol/fol.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/purad"
+#BITCOIND_PIDDIR="/var/run/fold"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/purad.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/fold.pid"
 
-# Where to write purad data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/purad"
+# Where to write fold data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/fold"
 
-# User and group to own purad process
-#BITCOIND_USER="pura"
-#BITCOIND_GROUP="pura"
+# User and group to own fold process
+#BITCOIND_USER="fol"
+#BITCOIND_GROUP="fol"
 
-# Path to purad executable
-#BITCOIND_BIN="/usr/bin/purad"
+# Path to fold executable
+#BITCOIND_BIN="/usr/bin/fold"
 
-# Nice value to run purad under
+# Nice value to run fold under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

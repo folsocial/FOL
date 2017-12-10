@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.pura.purad</string>
+	<string>org.fol.fold</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/purad</string>
+		<string>/usr/local/bin/fold</string>
 		<string>-daemon</string>
 	</array>
 	<key>RunAtLoad</key>

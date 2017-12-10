@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between pura-cli and purad)
- * of a given instance of the Pura system.
+ * CBaseChainParams defines the base parameters (shared between fol-cli and fold)
+ * of a given instance of the FOL system.
  */
 class CBaseChainParams
 {

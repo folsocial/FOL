@@ -1,7 +1,7 @@
-Building Pura Core
+Building FOL Core
 
 After you install the usual build tools and C++ development tools,
-Pura Core also needs some build dependencies which are not always provided
+FOL Core also needs some build dependencies which are not always provided
 by default by the OS package manager
 (in particular BerkeleyDB 4.8 for building with wallet support).
 
@@ -21,10 +21,10 @@ use the autogen script to prepare the build environment.
     make
 
 Precompiled binaries are available at github, see
-https://github.com/purapay/pura/releases
+https://github.com/folpay/fol/releases
 
 Always verify the signatures and checksums.
 
-See doc/build-*.md for instructions on building purad,
+See doc/build-*.md for instructions on building fold,
 the intended-for-services, no-graphical-interface,
-reference implementation of Pura.
+reference implementation of FOL.

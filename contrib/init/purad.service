@@ -1,15 +1,15 @@
 [Unit]
-Description=Pura's distributed currency daemon
+Description=FOL's distributed currency daemon
 After=network.target
 
 [Service]
-User=pura
-Group=pura
+User=fol
+Group=fol
 
 Type=forking
-PIDFile=/var/lib/purad/purad.pid
-ExecStart=/usr/bin/purad -daemon -pid=/var/lib/purad/purad.pid \
--conf=/etc/pura/pura.conf -datadir=/var/lib/purad -disablewallet
+PIDFile=/var/lib/fold/fold.pid
+ExecStart=/usr/bin/fold -daemon -pid=/var/lib/fold/fold.pid \
+-conf=/etc/fol/fol.conf -datadir=/var/lib/fold -disablewallet
 
 Restart=always
 PrivateTmp=true

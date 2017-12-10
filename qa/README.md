@@ -1,7 +1,7 @@
 The [pull-tester](/qa/pull-tester/) folder contains a script to call
 multiple tests from the [rpc-tests](/qa/rpc-tests/) folder.
 
-Every pull request to the Pura Core repository is built and run through
+Every pull request to the FOL Core repository is built and run through
 the regression test suite. You can also run all or only individual
 tests locally.
 
@@ -31,9 +31,9 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave purads and test.* datadir on exit or error
-  --noshutdown          Don't stop purads after the test execution
-  --srcdir=SRCDIR       Source directory containing purad/pura-cli
+  --nocleanup           Leave folds and test.* datadir on exit or error
+  --noshutdown          Don't stop folds after the test execution
+  --srcdir=SRCDIR       Source directory containing fold/fol-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made
@@ -58,7 +58,7 @@ to recover with:
 
 ```bash
 rm -rf cache
-killall purad
+killall fold
 ```
 
 Writing tests

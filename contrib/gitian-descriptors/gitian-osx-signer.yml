@@ -1,5 +1,5 @@
 ---
-name: "pura-dmg-signer"
+name: "fol-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -8,10 +8,10 @@ packages:
 - "faketime"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/puracore/pura-detached-sigs.git"
+- "url": "https://github.com/folcore/fol-detached-sigs.git"
   "dir": "signature"
 files:
-- "pura-osx-unsigned.tar.gz"
+- "fol-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -28,10 +28,10 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=pura-osx-unsigned.tar.gz
-  SIGNED=pura-osx-signed.dmg
+  UNSIGNED=fol-osx-unsigned.tar.gz
+  SIGNED=fol-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "pura-Core" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "fol-Core" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

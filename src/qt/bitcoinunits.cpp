@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -73,10 +73,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case PURA: return QString("Pura");
-            case mPURA: return QString("Milli-Pura (1 / 1" THIN_SP_UTF8 "000)");
-            case uPURA: return QString("Micro-Pura (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Pura (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case PURA: return QString("FOL");
+            case mPURA: return QString("Milli-FOL (1 / 1" THIN_SP_UTF8 "000)");
+            case uPURA: return QString("Micro-FOL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-FOL (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case PURA: return QString("TestPuras");
-            case mPURA: return QString("Milli-TestPura (1 / 1" THIN_SP_UTF8 "000)");
-            case uPURA: return QString("Micro-TestPura (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestPura (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case PURA: return QString("TestFOLs");
+            case mPURA: return QString("Milli-TestFOL (1 / 1" THIN_SP_UTF8 "000)");
+            case uPURA: return QString("Micro-TestFOL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestFOL (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

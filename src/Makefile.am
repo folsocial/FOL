@@ -49,8 +49,8 @@ EXTRA_LIBRARIES += libbitcoin_zmq.a
 endif
 
 if BUILD_BITCOIN_LIBS
-lib_LTLIBRARIES = libpuraconsensus.la
-LIBBITCOIN_CONSENSUS=libpuraconsensus.la
+lib_LTLIBRARIES = libfolconsensus.la
+LIBBITCOIN_CONSENSUS=libfolconsensus.la
 else
 LIBBITCOIN_CONSENSUS=
 endif
@@ -60,15 +60,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += purad
+  bin_PROGRAMS += fold
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += pura-cli pura-tx
+  bin_PROGRAMS += fol-cli fol-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# pura core #
+# fol core #
 BITCOIN_CORE_H = \
   addrdb.h \
   activemasternode.h \
@@ -205,7 +205,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between purad and pura-qt
+# server: shared between fold and fol-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -269,7 +269,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between purad and pura-qt, but only linked
+# wallet: shared between fold and fol-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -339,7 +339,7 @@ crypto_libbitcoin_crypto_a_SOURCES += \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between purad, and pura-qt and non-server tools
+# common: shared between fold, and fol-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -399,7 +399,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between pura-cli and pura-qt
+# cli: shared between fol-cli and fol-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -410,16 +410,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-purad_SOURCES = purad.cpp
-purad_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-purad_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-purad_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+fold_SOURCES = fold.cpp
+fold_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+fold_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+fold_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-purad_SOURCES += purad-res.rc
+fold_SOURCES += fold-res.rc
 endif
 
-purad_LDADD = \
+fold_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -430,56 +430,56 @@ purad_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-purad_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+fold_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-purad_LDADD += libbitcoin_wallet.a
+fold_LDADD += libbitcoin_wallet.a
 endif
 
-purad_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+fold_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# pura-cli binary #
-pura_cli_SOURCES = pura-cli.cpp
-pura_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-pura_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pura_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# fol-cli binary #
+fol_cli_SOURCES = fol-cli.cpp
+fol_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+fol_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+fol_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pura_cli_SOURCES += pura-cli-res.rc
+fol_cli_SOURCES += fol-cli-res.rc
 endif
 
-pura_cli_LDADD = \
+fol_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
-pura_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+fol_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# pura-tx binary #
-pura_tx_SOURCES = pura-tx.cpp
-pura_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-pura_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pura_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# fol-tx binary #
+fol_tx_SOURCES = fol-tx.cpp
+fol_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+fol_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+fol_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pura_tx_SOURCES += pura-tx-res.rc
+fol_tx_SOURCES += fol-tx-res.rc
 endif
 
-pura_tx_LDADD = \
+fol_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-pura_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+fol_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
-# puraconsensus library #
+# folconsensus library #
 if BUILD_BITCOIN_LIBS
-include_HEADERS = script/puraconsensus.h
-libpuraconsensus_la_SOURCES = \
+include_HEADERS = script/folconsensus.h
+libfolconsensus_la_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/ripemd160.cpp \
   crypto/sha1.cpp \
@@ -488,20 +488,20 @@ libpuraconsensus_la_SOURCES = \
   hash.cpp \
   primitives/transaction.cpp \
   pubkey.cpp \
-  script/puraconsensus.cpp \
+  script/folconsensus.cpp \
   script/interpreter.cpp \
   script/script.cpp \
   uint256.cpp \
   utilstrencodings.cpp
 
 if GLIBC_BACK_COMPAT
-  libpuraconsensus_la_SOURCES += compat/glibc_compat.cpp
+  libfolconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-libpuraconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
-libpuraconsensus_la_LIBADD = $(LIBSECP256K1)
-libpuraconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
-libpuraconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libfolconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+libfolconsensus_la_LIBADD = $(LIBSECP256K1)
+libfolconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
+libfolconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif
 #

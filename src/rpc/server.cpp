@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -244,11 +244,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Pura Core server.");
+            "\nStop FOL Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Pura Core server stopping";
+    return "FOL Core server stopping";
 }
 
 /**
@@ -343,20 +343,20 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* Pura features */
-    { "pura",               "masternode",             &masternode,             true  },
-    { "pura",               "masternodelist",         &masternodelist,         true  },
-    { "pura",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "pura",               "gobject",                &gobject,                true  },
-    { "pura",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "pura",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "pura",               "voteraw",                &voteraw,                true  },
-    { "pura",               "mnsync",                 &mnsync,                 true  },
-    { "pura",               "spork",                  &spork,                  true  },
-    { "pura",               "getpoolinfo",            &getpoolinfo,            true  },
-    { "pura",               "sentinelping",           &sentinelping,           true  },
+    /* FOL features */
+    { "fol",               "masternode",             &masternode,             true  },
+    { "fol",               "masternodelist",         &masternodelist,         true  },
+    { "fol",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "fol",               "gobject",                &gobject,                true  },
+    { "fol",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "fol",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "fol",               "voteraw",                &voteraw,                true  },
+    { "fol",               "mnsync",                 &mnsync,                 true  },
+    { "fol",               "spork",                  &spork,                  true  },
+    { "fol",               "getpoolinfo",            &getpoolinfo,            true  },
+    { "fol",               "sentinelping",           &sentinelping,           true  },
 #ifdef ENABLE_WALLET
-    { "pura",               "privatepay",            &privatepay,            false },
+    { "fol",               "privatepay",            &privatepay,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -580,7 +580,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> pura-cli " + methodname + " " + args + "\n";
+    return "> fol-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

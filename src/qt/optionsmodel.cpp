@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pura-config.h"
+#include "config/fol-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -131,10 +131,10 @@ void OptionsModel::Init(bool resetSettings)
 
     if (!settings.contains("nPrivatePayAmount")) {
         // for migration from old settings
-        if (!settings.contains("nAnonymizePuraAmount"))
+        if (!settings.contains("nAnonymizeFOLAmount"))
             settings.setValue("nPrivatePayAmount", DEFAULT_PRIVATEPAY_AMOUNT);
         else
-            settings.setValue("nPrivatePayAmount", settings.value("nAnonymizePuraAmount").toInt());
+            settings.setValue("nPrivatePayAmount", settings.value("nAnonymizeFOLAmount").toInt());
     }
     if (!SoftSetArg("-privatepayamount", settings.value("nPrivatePayAmount").toString().toStdString()))
         addOverriddenOption("-privatepayamount");
@@ -193,7 +193,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in pura.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in fol.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

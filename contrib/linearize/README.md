@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install pura_hash
+## Step 0: Install fol_hash
 
-https://github.com/purapay/pura_hash
+https://github.com/folpay/fol_hash
 
 ## Step 1: Download hash list
 

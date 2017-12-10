@@ -1,7 +1,7 @@
 Release Process
 ====================
 
-* Update translations, see [translation_process.md](https://github.com/purapay/pura/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations, see [translation_process.md](https://github.com/folpay/fol/blob/master/doc/translation_process.md#syncing-with-transifex)
 * Update hardcoded [seeds](/contrib/seeds)
 
 * * *
@@ -10,14 +10,14 @@ Release Process
 Check out the source code in the following directory hierarchy.
 
 	cd /path/to/your/toplevel/build
-	git clone https://github.com/purapay/gitian.sigs.git
-	git clone https://github.com/purapay/pura-detached-sigs.git
+	git clone https://github.com/folpay/gitian.sigs.git
+	git clone https://github.com/folpay/fol-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-	git clone https://github.com/purapay/pura.git
+	git clone https://github.com/folpay/fol.git
 
-### Pura Core maintainers/release engineers, update (commit) version in sources
+### FOL Core maintainers/release engineers, update (commit) version in sources
 
-	pushd ./pura
+	pushd ./fol
 	contrib/verifysfbinaries/verify.sh
 	configure.ac
 	doc/README*
@@ -40,7 +40,7 @@ Check out the source code in the following directory hierarchy.
 
  Setup Gitian descriptors:
 
-	pushd ./pura
+	pushd ./fol
 	export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
 	git fetch
@@ -76,52 +76,52 @@ Check out the source code in the following directory hierarchy.
 
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
-	make -C ../pura/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../fol/depends download SOURCES_PATH=`pwd`/cache/common
 
 Only missing files will be fetched, so this is safe to re-run for each build.
 
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 ```
-./bin/gbuild --url pura=/path/to/pura,signature=/path/to/sigs {rest of arguments}
+./bin/gbuild --url fol=/path/to/fol,signature=/path/to/sigs {rest of arguments}
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Pura Core for Linux, Windows, and OS X:
+### Build and sign FOL Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit pura=v${VERSION} ../pura/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../pura/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/pura-*.tar.gz build/out/src/pura-*.tar.gz ../
+	./bin/gbuild --commit fol=v${VERSION} ../fol/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../fol/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/fol-*.tar.gz build/out/src/fol-*.tar.gz ../
 
-	./bin/gbuild --commit pura=v${VERSION} ../pura/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../pura/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/pura-*-win-unsigned.tar.gz inputs/pura-win-unsigned.tar.gz
-	mv build/out/pura-*.zip build/out/pura-*.exe ../
+	./bin/gbuild --commit fol=v${VERSION} ../fol/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../fol/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/fol-*-win-unsigned.tar.gz inputs/fol-win-unsigned.tar.gz
+	mv build/out/fol-*.zip build/out/fol-*.exe ../
 
-	./bin/gbuild --commit pura=v${VERSION} ../pura/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../pura/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/pura-*-osx-unsigned.tar.gz inputs/pura-osx-unsigned.tar.gz
-	mv build/out/pura-*.tar.gz build/out/pura-*.dmg ../
+	./bin/gbuild --commit fol=v${VERSION} ../fol/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../fol/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/fol-*-osx-unsigned.tar.gz inputs/fol-osx-unsigned.tar.gz
+	mv build/out/fol-*.tar.gz build/out/fol-*.dmg ../
 	popd
 
   Build output expected:
 
-  1. source tarball (pura-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit dist tarballs (pura-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (pura-${VERSION}-win[32|64]-setup-unsigned.exe, pura-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer and dist tarball (pura-${VERSION}-osx-unsigned.dmg, pura-${VERSION}-osx64.tar.gz)
+  1. source tarball (fol-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (fol-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (fol-${VERSION}-win[32|64]-setup-unsigned.exe, fol-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer and dist tarball (fol-${VERSION}-osx-unsigned.dmg, fol-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
   Add other gitian builders keys to your gpg keyring
 
-	gpg --import ../pura/contrib/gitian-downloader/*.pgp
+	gpg --import ../fol/contrib/gitian-downloader/*.pgp
 
   Verify the signatures
 
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../pura/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../pura/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../pura/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../fol/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../fol/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../fol/contrib/gitian-descriptors/gitian-osx.yml
 
 	popd
 
@@ -139,25 +139,25 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-	Detached signatures will then be committed to the [pura-detached-sigs](https://github.com/purapay/pura-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [fol-detached-sigs](https://github.com/folpay/fol-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../pura/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../pura/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../pura/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/pura-osx-signed.dmg ../pura-${VERSION}-osx.dmg
+	./bin/gbuild -i --commit signature=v${VERSION} ../fol/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../fol/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../fol/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/fol-osx-signed.dmg ../fol-${VERSION}-osx.dmg
 	popd
 
   Create (and optionally verify) the signed Windows binaries:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../pura/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../pura/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../pura/contrib/gitian-descriptors/gitian-win-signer.yml
-	mv build/out/pura-*win64-setup.exe ../pura-${VERSION}-win64-setup.exe
-	mv build/out/pura-*win32-setup.exe ../pura-${VERSION}-win32-setup.exe
+	./bin/gbuild -i --commit signature=v${VERSION} ../fol/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../fol/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../fol/contrib/gitian-descriptors/gitian-win-signer.yml
+	mv build/out/fol-*win64-setup.exe ../fol-${VERSION}-win64-setup.exe
+	mv build/out/fol-*win32-setup.exe ../fol-${VERSION}-win32-setup.exe
 	popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -182,21 +182,21 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the pura.org server
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the fol.org server
 
-- Update pura.org
+- Update fol.org
 
 - Announce the release:
 
-  - Release on Pura forum: https://www.pura.org/forum/topic/official-announcements.54/
+  - Release on FOL forum: https://www.fol.org/forum/topic/official-announcements.54/
 
-  - Pura-development mailing list
+  - FOL-development mailing list
 
-  - Update title of #purapay on Freenode IRC
+  - Update title of #folpay on Freenode IRC
 
-  - Optionally reddit /r/Purapay, ... but this will usually sort out itself
+  - Optionally reddit /r/FOLpay, ... but this will usually sort out itself
 
-- Notify flare so that he can start building [the PPAs](https://launchpad.net/~pura.org/+archive/ubuntu/pura)
+- Notify flare so that he can start building [the PPAs](https://launchpad.net/~fol.org/+archive/ubuntu/fol)
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

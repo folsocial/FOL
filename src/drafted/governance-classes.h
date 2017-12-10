@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2017-2017 The Pura Core developers
+// Copyright (c) 2017-2017 The FOL Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CPuraNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CFOLNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -118,7 +118,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.pura.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.fol.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -131,7 +131,7 @@ public:
 };
 
 // // root node
-class CPuraNetwork : public CGovernanceObject
+class CFOLNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -139,7 +139,7 @@ private:
 
 
 public:
-    CPuraNetwork(UniValue objIn)
+    CFOLNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -175,9 +175,9 @@ public:
 
 };
 
-// // can be under: PuraNetwork
+// // can be under: FOLNetwork
 // //   -- signature requirements : Key1(User)
-// class CPuraNetworkVariable : public CGovernanceObject
+// class CFOLNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -280,7 +280,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == PuraNetwork);
+//     //     return (IsType() == FOLNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

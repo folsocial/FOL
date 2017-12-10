@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of Pura.
+This directory contains data-driven tests for various aspects of FOL.
 
 License
 --------

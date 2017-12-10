@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: purad.service
-Upstart: purad.conf
-OpenRC:  purad.openrc
-         purad.openrcconf
-CentOS:  purad.init
-OS X:    org.pura.purad.plist
+SystemD: fold.service
+Upstart: fold.conf
+OpenRC:  fold.openrc
+         fold.openrcconf
+CentOS:  fold.init
+OS X:    org.fol.fold.plist
 
 have been made available to assist packagers in creating node packages here.
 

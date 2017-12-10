@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Pura
-Comment=Pura P2P Cryptocurrency
-Comment[fr]=Pura, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Pura, eşten eşe kriptografik sanal para birimi
-Exec=pura-qt %u
+Name=FOL
+Comment=FOL P2P Cryptocurrency
+Comment[fr]=FOL, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=FOL, eşten eşe kriptografik sanal para birimi
+Exec=fol-qt %u
 Terminal=false
 Type=Application
-Icon=pura128
-MimeType=x-scheme-handler/pura;
+Icon=fol128
+MimeType=x-scheme-handler/fol;
 Categories=Office;Finance;

@@ -62,12 +62,12 @@
         <translation>Endereços para recepção</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os endereços Pura para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
+        <source>These are your FOL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os endereços FOL para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Pura para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
+        <source>These are your FOL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços FOL para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>Pura will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your puras from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Pura irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas puras contra roubos feitos por malware presente no seu computador.</translation>
+        <source>FOL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fols from being stolen by malware infecting your computer.</source>
+        <translation>O cliente FOL irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas fols contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a Pura address</source>
-        <translation>Enviar moedas para um endereço Pura</translation>
+        <source>Send coins to a FOL address</source>
+        <translation>Enviar moedas para um endereço FOL</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pura: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e pura: URIs)</translation>
+        <source>Request payments (generates QR codes and fol: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e fol: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About Pura Core</source>
-        <translation>&amp;Acerca do Pura Core</translation>
+        <source>&amp;About FOL Core</source>
+        <translation>&amp;Acerca do FOL Core</translation>
     </message>
     <message>
-        <source>Show information about Pura Core</source>
-        <translation>Mostra informação acerca do Pura Core</translation>
+        <source>Show information about FOL Core</source>
+        <translation>Mostra informação acerca do FOL Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opções...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pura</source>
-        <translation>Modificar opções de configuração do Pura</translation>
+        <source>Modify configuration options for FOL</source>
+        <translation>Modificar opções de configuração do FOL</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>Sign messages with your Pura addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Pura para provar que são seus</translation>
+        <source>Sign messages with your FOL addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços FOL para provar que são seus</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pura addresses</source>
-        <translation>Verifica mensagens para garantir que foram assinadas com um endereço Pura específico</translation>
+        <source>Verify messages to ensure they were signed with specified FOL addresses</source>
+        <translation>Verifica mensagens para garantir que foram assinadas com um endereço FOL específico</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -376,11 +376,11 @@
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>Consola de &amp;Depuração</translation>
+        <translation>Consola de &amp;Defolção</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Abrir consola de depuração</translation>
+        <translation>Abrir consola de defolção</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
@@ -443,24 +443,24 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a pura: URI or payment request</source>
-        <translation>Abre um pura: URI ou solicitação de pagamento</translation>
+        <source>Open a fol: URI or payment request</source>
+        <translation>Abre um fol: URI ou solicitação de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Pura Core client</source>
-        <translation>Cliente Pura Core</translation>
+        <source>FOL Core client</source>
+        <translation>Cliente FOL Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Pura Core help message to get a list with possible Pura command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Pura Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the FOL Core help message to get a list with possible FOL command-line options</source>
+        <translation>Mostra a mensagem de ajuda do FOL Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -483,8 +483,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pura network</source>
-        <translation><numerusform>%n ligação activa à rede Pura</numerusform><numerusform>%n ligações activas à rede Pura</numerusform></translation>
+        <source>%n active connection(s) to FOL network</source>
+        <translation><numerusform>%n ligação activa à rede FOL</numerusform><numerusform>%n ligações activas à rede FOL</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,16 +892,16 @@ Endereço: %4
         <translation>Configuração Privatepay</translation>
     </message>
     <message>
-        <source>Privatepay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Pura.</translation>
+        <source>Privatepay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração FOL.</translation>
     </message>
     <message>
-        <source>Privatepay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Pura.</translation>
+        <source>Privatepay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração FOL.</translation>
     </message>
     <message>
-        <source>Privatepay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração Pura.</translation>
+        <source>Privatepay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração FOL.</translation>
     </message>
 </context>
 <context>
@@ -943,8 +943,8 @@ Endereço: %4
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Pura address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço Pura válido.</translation>
+        <source>The entered address "%1" is not a valid FOL address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço FOL válido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Pura Core</source>
-        <translation>Acerca do Pura Core</translation>
+        <source>About FOL Core</source>
+        <translation>Acerca do FOL Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Pura Core.</source>
-        <translation>Bem-vindo ao Pura Core.</translation>
+        <source>Welcome to FOL Core.</source>
+        <translation>Bem-vindo ao FOL Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pura Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Pura Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where FOL Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente FOL Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Pura Core will download and store a copy of the Pura block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente Pura Core irá descarregar e guardar uma copia da cadeia de blocos Pura. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>FOL Core will download and store a copy of the FOL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente FOL Core irá descarregar e guardar uma copia da cadeia de blocos FOL. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1118,12 +1118,12 @@ Endereço: %4
         <translation>&amp;Geral</translation>
     </message>
     <message>
-        <source>Automatically start Pura after logging in to the system.</source>
-        <translation>Executar automaticamente o cliente Pura quando entrar no sistema.</translation>
+        <source>Automatically start FOL after logging in to the system.</source>
+        <translation>Executar automaticamente o cliente FOL quando entrar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Pura on system login</source>
-        <translation>&amp;Iniciar o cliente Pura ao entrar no sistema</translation>
+        <source>&amp;Start FOL on system login</source>
+        <translation>&amp;Iniciar o cliente FOL ao entrar no sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1150,8 +1150,8 @@ Endereço: %4
         <translation>Esta quantia actua como um limite, a partir do qual o Privatepay é desligado.</translation>
     </message>
     <message>
-        <source>Amount of Pura to keep anonymized</source>
-        <translation>Quantia de Pura a manter anonimizada</translation>
+        <source>Amount of FOL to keep anonymized</source>
+        <translation>Quantia de FOL a manter anonimizada</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1170,8 +1170,8 @@ Endereço: %4
         <translation>Aceitar ligações de entrada</translation>
     </message>
     <message>
-        <source>Connect to the Pura network through a SOCKS5 proxy.</source>
-        <translation>Efectuar a ligação à rede Pura através de um proxy SOCKS5.</translation>
+        <source>Connect to the FOL network through a SOCKS5 proxy.</source>
+        <translation>Efectuar a ligação à rede FOL através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1202,8 +1202,8 @@ Endereço: %4
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>Automatically open the Pura client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Pura no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
+        <source>Automatically open the FOL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente FOL no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1254,14 +1254,14 @@ Endereço: %4
         <translation>&amp;Linguagem do interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pura.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting FOL.</source>
         <translation>A linguagem do interface pode ser definida aqui. Esta definição terá efeito depois de reiniciar a aplicação.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/pura/</source>
+https://www.transifex.com/projects/p/fol/</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude a traduzir aqui:
-https://www.transifex.com/projects/p/pura/</translation>
+https://www.transifex.com/projects/p/fol/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1343,8 +1343,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>De</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pura network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede Pura assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FOL network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede FOL assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1564,8 +1564,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Erro na solicitação de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start pura: click-to-pay handler</source>
-        <translation>Não é possível iniciar o pura: click-to-pay handler</translation>
+        <source>Cannot start fol: click-to-pay handler</source>
+        <translation>Não é possível iniciar o fol: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1584,8 +1584,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Pura address or malformed URI parameters.</source>
-        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço Pura inválido ou parâmetros do URI incorrectos.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid FOL address or malformed URI parameters.</source>
+        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço FOL inválido ou parâmetros do URI incorrectos.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1670,8 +1670,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Pura address (e.g. %1)</source>
-        <translation>Insira um endereço Pura (ex. %1)</translation>
+        <source>Enter a FOL address (e.g. %1)</source>
+        <translation>Insira um endereço FOL (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1760,8 +1760,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Número de ligações</translation>
     </message>
     <message>
-        <source>Open the Pura debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o ficheiro de registo de depuração Pura a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
+        <source>Open the FOL debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o ficheiro de registo de defolção FOL a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1781,7 +1781,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Ficheiro de registo de depuração</translation>
+        <translation>Ficheiro de registo de defolção</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
@@ -1968,8 +1968,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Pura RPC console.</source>
-        <translation>Bem-vindo à consola RPC Pura</translation>
+        <source>Welcome to the FOL RPC console.</source>
+        <translation>Bem-vindo à consola RPC FOL</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>R&amp;eutilizar um endereço de recebimento existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede Pura.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede FOL.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2043,8 +2043,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Rótulo opcional para associar com o novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede Pura.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede FOL.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2480,8 +2480,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Pagar somente a taxa mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pura address</source>
-        <translation>Aviso: Endereço Pura inválido</translation>
+        <source>Warning: Invalid FOL address</source>
+        <translation>Aviso: Endereço FOL inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2503,8 +2503,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
-        <source>The Pura address to send the payment to</source>
-        <translation>O endereço Pura para onde enviar o pagamento</translation>
+        <source>The FOL address to send the payment to</source>
+        <translation>O endereço FOL para onde enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pura: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pura network.</source>
-        <translation>Mensagem que foi anexada ao pura: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Pura.</translation>
+        <source>A message that was attached to the fol: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FOL network.</source>
+        <translation>Mensagem que foi anexada ao fol: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede FOL.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pura Core is shutting down...</source>
-        <translation>O Pura Core está a desligar...</translation>
+        <source>FOL Core is shutting down...</source>
+        <translation>O FOL Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2593,8 +2593,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Pura address to sign the message with</source>
-        <translation>Endereço Pura com o qual deseja assinar a mensagem</translation>
+        <source>The FOL address to sign the message with</source>
+        <translation>Endereço FOL com o qual deseja assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2625,8 +2625,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pura address</source>
-        <translation>Assinar a mensagem para provar que é o proprietário deste endereço Pura</translation>
+        <source>Sign the message to prove you own this FOL address</source>
+        <translation>Assinar a mensagem para provar que é o proprietário deste endereço FOL</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2649,12 +2649,12 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia exactamente as quebras de linha, espaços, tabulações, etc) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Pura address the message was signed with</source>
-        <translation>Endereço Pura com o qual a mensagem foi assinada</translation>
+        <source>The FOL address the message was signed with</source>
+        <translation>Endereço FOL com o qual a mensagem foi assinada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pura address</source>
-        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço Pura especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified FOL address</source>
+        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço FOL especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Pura Core developers</source>
-        <translation>Os programadores Pura Core</translation>
+        <source>The FOL Core developers</source>
+        <translation>Os programadores FOL Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2907,7 +2907,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Informação de depuração</translation>
+        <translation>Informação de defolção</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -3304,14 +3304,14 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
 </context>
 <context>
-    <name>pura-core</name>
+    <name>fol-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pura Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Pura Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. FOL Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o FOL Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Privatepay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,8 +3366,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pura Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Pura Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. FOL Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o FOL Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Privatepay denominated funds for this transaction.</source>
@@ -3479,7 +3479,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Opções de Depuração/Teste</translation>
+        <translation>Opções de Defolção/Teste</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
@@ -3559,7 +3559,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Se a &lt;category&gt; não for fornecida, mostrar toda a informação de depuração.</translation>
+        <translation>Se a &lt;category&gt; não for fornecida, mostrar toda a informação de defolção.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
@@ -3615,7 +3615,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Informação de depuração de saída (omissão: %u, fornecer &lt;category&gt; é opcional)</translation>
+        <translation>Informação de defolção de saída (omissão: %u, fornecer &lt;category&gt; é opcional)</translation>
     </message>
     <message>
         <source>Provide liquidity to Privatepay by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
@@ -3623,7 +3623,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Enviar informação de execução/depuração para a consola em vez de enviar para o ficheiro debug.log (omissão: %u)</translation>
+        <translation>Enviar informação de execução/defolção para a consola em vez de enviar para o ficheiro debug.log (omissão: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Pura Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Pura Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong FOL Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o FOL Core não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(44444 could be used only on mainnet)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Pura Core Developers</source>
-        <translation>Copyright (C) 2014-%i Pura Core Developers</translation>
+        <source>Copyright (C) 2014-%i The FOL Core Developers</source>
+        <translation>Copyright (C) 2014-%i FOL Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pura Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Pura Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FOL Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do FOL Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Pura Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O Pura Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. FOL Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O FOL Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -3925,7 +3925,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Adicionar data/hora à informação de depuração (omissão: %u)</translation>
+        <translation>Adicionar data/hora à informação de defolção (omissão: %u)</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
@@ -3933,7 +3933,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Enviar informação de execução/depuração para o ficheiro debug.log (omissão: %u)</translation>
+        <translation>Enviar informação de execução/defolção para o ficheiro debug.log (omissão: %u)</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pura Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie Pura Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart FOL Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie FOL Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4185,7 +4185,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à Pura Wiki)</translation>
+        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à FOL Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -4253,7 +4253,7 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Mostrar todas as opções de depuração (uso: --help -help-debug)</translation>
+        <translation>Mostrar todas as opções de defolção (uso: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>

@@ -58,12 +58,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>De här är dina Pura-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
+        <source>These are your FOL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>De här är dina FOL-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>De här är dina Pura-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your FOL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>De här är dina FOL-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Pura will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your puras from being stolen by malware infecting your computer.</source>
-        <translation>Pura kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Pura stjäls av skadeprogram som har infekterat din dator.</translation>
+        <source>FOL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fols from being stolen by malware infecting your computer.</source>
+        <translation>FOL kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina FOL stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core
+        <source>FOL Core</source>
+        <translation>FOL Core
 </translation>
     </message>
     <message>
@@ -244,16 +244,16 @@
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>Send coins to a Pura address</source>
-        <translation>Skicka mynt till en Pura-adress</translation>
+        <source>Send coins to a FOL address</source>
+        <translation>Skicka mynt till en FOL-adress</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pura: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och Pura:-URI:s)</translation>
+        <source>Request payments (generates QR codes and fol: URIs)</source>
+        <translation>Begär betalningar (genererar QR-koder och FOL:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About Pura Core</source>
-        <translation>&amp;Om Pura Core</translation>
+        <source>&amp;About FOL Core</source>
+        <translation>&amp;Om FOL Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -288,8 +288,8 @@
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Pura</source>
-        <translation>Anpassa konfigurationsalternatv för Pura</translation>
+        <source>Modify configuration options for FOL</source>
+        <translation>Anpassa konfigurationsalternatv för FOL</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -340,16 +340,16 @@
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Sign messages with your Pura addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Pura-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your FOL addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina FOL-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Bekräfta meddelande...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pura addresses</source>
-        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna Pura-adresserna</translation>
+        <source>Verify messages to ensure they were signed with specified FOL addresses</source>
+        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna FOL-adresserna</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -404,16 +404,16 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a pura: URI or payment request</source>
-        <translation>Öppna en Pura-URI eller betalningsbegäran</translation>
+        <source>Open a fol: URI or payment request</source>
+        <translation>Öppna en FOL-URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the Pura Core help message to get a list with possible Pura command-line options</source>
-        <translation>Visa Pura Core-hjälpmeddelandet för att få en lista med möjliga Pura-kommandoradalternativ</translation>
+        <source>Show the FOL Core help message to get a list with possible FOL command-line options</source>
+        <translation>Visa FOL Core-hjälpmeddelandet för att få en lista med möjliga FOL-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -790,16 +790,16 @@ Adress: %4
         <translation>Privatepay-konfiguration</translation>
     </message>
     <message>
-        <source>Privatepay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna Pura:s konfigurationsskärm.</translation>
+        <source>Privatepay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna FOL:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Privatepay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna Pura:s konfigurationsskärm.</translation>
+        <source>Privatepay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna FOL:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Privatepay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Pura's configuration screen.</source>
-        <translation>Privatepay ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna Pura:s konfigurationsskärm</translation>
+        <source>Privatepay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FOL's configuration screen.</source>
+        <translation>Privatepay ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna FOL:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Adress: %4
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Pura address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Pura-adress.</translation>
+        <source>The entered address "%1" is not a valid FOL address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig FOL-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core
+        <source>FOL Core</source>
+        <translation>FOL Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to Pura Core.</source>
-        <translation>Välkommen till Pura Core.</translation>
+        <source>Welcome to FOL Core.</source>
+        <translation>Välkommen till FOL Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pura Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var Pura Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where FOL Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var FOL Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>Pura Core will download and store a copy of the Pura block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pura Core kommer att laddas ned och lagra en kopia av Pura:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>FOL Core will download and store a copy of the FOL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FOL Core kommer att laddas ned och lagra en kopia av FOL:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -989,12 +989,12 @@ Adress: %4
         <translation>&amp;Huvud</translation>
     </message>
     <message>
-        <source>Automatically start Pura after logging in to the system.</source>
-        <translation>Starta Pura automatiskt efter systeminloggning.</translation>
+        <source>Automatically start FOL after logging in to the system.</source>
+        <translation>Starta FOL automatiskt efter systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start Pura on system login</source>
-        <translation>&amp;Starta Pura vid systeminloggning</translation>
+        <source>&amp;Start FOL on system login</source>
+        <translation>&amp;Starta FOL vid systeminloggning</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,8 +1021,8 @@ Adress: %4
         <translation>Denna mängd fungerar som en tröskel att stänga av Privatepay då det har uppnåtts.</translation>
     </message>
     <message>
-        <source>Amount of Pura to keep anonymized</source>
-        <translation>Mängd Pura att bibehålla anonymiserade</translation>
+        <source>Amount of FOL to keep anonymized</source>
+        <translation>Mängd FOL att bibehålla anonymiserade</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1049,8 +1049,8 @@ Adress: %4
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically open the Pura client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna Pura:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <source>Automatically open the FOL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna FOL:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,14 +1101,14 @@ Adress: %4
         <translation>Användargränssnitt&amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pura.</source>
-        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att Pura startats om.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FOL.</source>
+        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att FOL startats om.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/pura/</source>
+https://www.transifex.com/projects/p/fol/</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/projects/p/pura/</translation>
+https://www.transifex.com/projects/p/fol/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1182,8 +1182,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pura network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med Pura-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FOL network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med FOL-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start pura: click-to-pay handler</source>
-        <translation>Kan inte starta pura: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start fol: click-to-pay handler</source>
+        <translation>Kan inte starta fol: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1435,8 +1435,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Antal anslutningar</translation>
     </message>
     <message>
-        <source>Open the Pura debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna Puras avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <source>Open the FOL debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna FOLs avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1507,8 +1507,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the Pura RPC console.</source>
-        <translation>Välkommen till Puras RPC-konsol.</translation>
+        <source>Welcome to the FOL RPC console.</source>
+        <translation>Välkommen till FOLs RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1542,8 +1542,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över Pura-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över FOL-nätverket.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Fel: Plånboken låstes upp enbart för att anonymisera mynt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pura address</source>
-        <translation>Varning: Ogiltig Pura-adress</translation>
+        <source>Warning: Invalid FOL address</source>
+        <translation>Varning: Ogiltig FOL-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pura: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pura network.</source>
-        <translation>Ett meddelande som bifogades till Pura: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Pura-nätverket.</translation>
+        <source>A message that was attached to the fol: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FOL network.</source>
+        <translation>Ett meddelande som bifogades till FOL: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över FOL-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pura Core is shutting down...</source>
-        <translation>Pura Core stängs ned...</translation>
+        <source>FOL Core is shutting down...</source>
+        <translation>FOL Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2036,8 +2036,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Kopiera den nuvarande valda signaturen till systemurklippet</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pura address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Pura-adress</translation>
+        <source>Sign the message to prove you own this FOL address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna FOL-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Skriv in signeringsadressen, meddelandet, (försäkra dig om att du kopierar linjeavbrott, mellanslag, flikar med mera) och signera nedtill för att verifiera meddelandet. Var försiktig med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet för att undvika att bli lurad av en mellanhandattack.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pura address</source>
-        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna Pura-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified FOL address</source>
+        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna FOL-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core
+        <source>FOL Core</source>
+        <translation>FOL Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The Pura Core developers</source>
-        <translation>Pura Core-utvecklarna</translation>
+        <source>The FOL Core developers</source>
+        <translation>FOL Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2656,14 +2656,14 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
 </context>
 <context>
-    <name>pura-core</name>
+    <name>fol-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pura Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. Pura Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. FOL Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. FOL Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Privatepay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pura Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. Pura Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. FOL Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. FOL Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Privatepay denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Pura Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. Pura Core stängs ned.</translation>
+        <source>Initialization sanity check failed. FOL Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. FOL Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

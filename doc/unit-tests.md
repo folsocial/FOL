@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the purad tests manually, launch `src/test/test_pura`.
+To run the fold tests manually, launch `src/test/test_fol`.
 
-To add more purad tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more fold tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the pura-qt tests manually, launch `src/qt/test/test_pura-qt`
+To run the fol-qt tests manually, launch `src/qt/test/test_fol-qt`
 
-To add more pura-qt tests, add them to the `src/qt/test/` directory and
+To add more fol-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши адреса Pura для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+        <source>These are your FOL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса FOL для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <source>These are your Pura addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши адреса Pura для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+        <source>These are your FOL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса FOL для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Введите старый пароль и новый пароль для бумажника.</translation>
     </message>
     <message>
-        <source>Pura Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your puras from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас Pura Core закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <source>FOL Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fols from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас FOL Core закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,8 +242,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,16 +266,16 @@
         <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <source>Send coins to a Pura address</source>
-        <translation>Отправить монеты на указанный адрес Pura</translation>
+        <source>Send coins to a FOL address</source>
+        <translation>Отправить монеты на указанный адрес FOL</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pura: URIs)</source>
-        <translation>Запросить платежи (создать QR-коды и pura: URI)</translation>
+        <source>Request payments (generates QR codes and fol: URIs)</source>
+        <translation>Запросить платежи (создать QR-коды и fol: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -302,12 +302,12 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>&amp;About Pura Core</source>
-        <translation>О &amp;Pura Core</translation>
+        <source>&amp;About FOL Core</source>
+        <translation>О &amp;FOL Core</translation>
     </message>
     <message>
-        <source>Show information about Pura Core</source>
-        <translation>Показать информацию о Pura Core</translation>
+        <source>Show information about FOL Core</source>
+        <translation>Показать информацию о FOL Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -370,16 +370,16 @@
         <translation>П&amp;одписать сообщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your Pura addresses to prove you own them</source>
-        <translation>Подписать сообщения вашими адресами Pura, чтобы доказать, что вы ими владеете</translation>
+        <source>Sign messages with your FOL addresses to prove you own them</source>
+        <translation>Подписать сообщения вашими адресами FOL, чтобы доказать, что вы ими владеете</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>П&amp;роверить сообщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Pura addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами Pura</translation>
+        <source>Verify messages to ensure they were signed with specified FOL addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами FOL</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -454,16 +454,16 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a pura: URI or payment request</source>
-        <translation>Открыть pura: URI или запрос платежа</translation>
+        <source>Open a fol: URI or payment request</source>
+        <translation>Открыть fol: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Pura Core client</source>
-        <translation>Клиент Pura Core</translation>
+        <source>FOL Core client</source>
+        <translation>Клиент FOL Core</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -490,8 +490,8 @@
         <translation>Панель вкладок</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Pura network</source>
-        <translation><numerusform>%n активное соединение с сетью Pura</numerusform><numerusform>%n активных соединения с сетью Pura</numerusform><numerusform>%n активных соединений с сетью Pura</numerusform><numerusform>%n активных соединений с сетью Pura</numerusform></translation>
+        <source>%n active connection(s) to FOL network</source>
+        <translation><numerusform>%n активное соединение с сетью FOL</numerusform><numerusform>%n активных соединения с сетью FOL</numerusform><numerusform>%n активных соединений с сетью FOL</numerusform><numerusform>%n активных соединений с сетью FOL</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -518,8 +518,8 @@
         <translation><numerusform>%n час</numerusform><numerusform>%n часа</numerusform><numerusform>%n часов</numerusform><numerusform>%n часов</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Pura Core</source>
-        <translation>Изменить параметры конфигурации Pura Core</translation>
+        <source>Modify configuration options for FOL Core</source>
+        <translation>Изменить параметры конфигурации FOL Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -534,8 +534,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Show the Pura Core help message to get a list with possible Pura Core command-line options</source>
-        <translation>Показать помощь о Pura Core со списком возможных параметров командной строки</translation>
+        <source>Show the FOL Core help message to get a list with possible FOL Core command-line options</source>
+        <translation>Показать помощь о FOL Core со списком возможных параметров командной строки</translation>
     </message>
     <message>
         <source>&amp;PrivatePay information</source>
@@ -957,15 +957,15 @@
         <translation>Настройки PrivatePay</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Pura's configuration screen.</source>
+        <source>PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FOL's configuration screen.</source>
         <translation>PrivatePay успешно установлен в режим базовой приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Pura's configuration screen.</source>
+        <source>PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FOL's configuration screen.</source>
         <translation>PrivatePay успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Pura's configuration screen.</source>
+        <source>PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FOL's configuration screen.</source>
         <translation>PrivatePay успешно установлен в режим максимальной приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
 </context>
@@ -1008,8 +1008,8 @@
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Pura address.</source>
-        <translation>Введённый адрес "%1" не является правильным адресом Pura.</translation>
+        <source>The entered address "%1" is not a valid FOL address.</source>
+        <translation>Введённый адрес "%1" не является правильным адресом FOL.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1050,8 +1050,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,8 +1062,8 @@
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Pura Core</source>
-        <translation>О Pura Core</translation>
+        <source>About FOL Core</source>
+        <translation>О FOL Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1098,8 +1098,8 @@
         <translation>Информация о PrivatePay</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivatePay Basics&lt;/h3&gt; PrivatePay gives you true financial privacy by obscuring the origins of your funds. All the Pura in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivatePay uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivatePay process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 PURA, 0.1 PURA, 1 PURA and 10 PURA -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivatePay makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivatePay disabled. &lt;hr&gt;For more info see &lt;a href="https://purapay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://purapay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Основы PrivatePay&lt;/h3&gt;PrivatePay позволяет Вам получить настоящую финансовую конфиденциальность за счет скрытия источников Ваших средств. Все Pura в  Вашем кошельке состоят из различных ""входов", Вы можете думать о них как об отдельных монетах.&lt;br&gt;PrivatePay использует инновационный процесс для перемешивания Ваших входов со входами еще двоих человек, но при этом Ваши монеты никогда не покидают Ваш кошелек. Вы сохраняете контроль над Вашими деньгами на протяжении всего времени.&lt;hr&gt; &lt;b&gt;PrivatePay работает так:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay начинается с разбиения Ваших входов транзакций на стандартные номиналы. Такими номиналами являются 0.01 PURA, 0.1 PURA, 1 PURA и 10 PURA -- что-то вроде купюр, которыми вы пользуетесь каждый день.&lt;/li&gt; &lt;li&gt;Ваш кошелек затем отправляет запросы к особым образом настроенным сетевым узлам, называемым "мастернодами". Эти мастерноды знают только то, что Вы хотите перемешать определенные номиналы. Никакой идентифицирующей информации мастернодам не отравляется, так что они не знают "кто" Вы конкретно.&lt;/li&gt; &lt;li&gt;Сессия перемешивания начинается тогда, когда еще двое человек отправляют схожее сообщение, подтверждающее, что они хотят перемешать точно такой же номинал. Мастернода перемешивает входы и просит кошельки всех пользователей осуществить платежи по ним. Ваш кошелек осуществляет выплату самому себе, но на другой адрес (тоже из вашего кошелька).&lt;/li&gt; &lt;li&gt;Для скрытия Ваших средств кошелек должен повторить этот процесс несколько раз с каждым номиналом. Каждый раз, когда такой процесс завершается, называется "раундом". С каждым раундом PrivatePay становится экспоненциально сложнее определить откуда поступили средства.&lt;/li&gt; &lt;li&gt;Процесс перемешивания выполняется в фоне, без участия пользователя. Когда Вы захотите провести транзакцию, средства уже будут анонимизированы. Дополнительно ждать не требуется.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Ваш кошелек содержит 1000 адресов. Каждое перемешивание использует до 9 из этих адресов. Это означает, что 1000 адресов хватит примерно на 100 перемешиваний. Когда 900 адресов будут уже использованы, Ваш кошелек должен создать новые адреса. Однако, он может сделать это, только если у Вас включены автоматические резервные копии.&lt;br&gt;Соответственно, пользователям с отключенным резервным копированием PrivatePay не доступен. &lt;hr&gt;Дополнительная информация доступна по ссылке &lt;a href="https://purapay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://purapay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivatePay Basics&lt;/h3&gt; PrivatePay gives you true financial privacy by obscuring the origins of your funds. All the FOL in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivatePay uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivatePay process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 PURA, 0.1 PURA, 1 PURA and 10 PURA -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivatePay makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivatePay disabled. &lt;hr&gt;For more info see &lt;a href="https://folpay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://folpay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Основы PrivatePay&lt;/h3&gt;PrivatePay позволяет Вам получить настоящую финансовую конфиденциальность за счет скрытия источников Ваших средств. Все FOL в  Вашем кошельке состоят из различных ""входов", Вы можете думать о них как об отдельных монетах.&lt;br&gt;PrivatePay использует инновационный процесс для перемешивания Ваших входов со входами еще двоих человек, но при этом Ваши монеты никогда не покидают Ваш кошелек. Вы сохраняете контроль над Вашими деньгами на протяжении всего времени.&lt;hr&gt; &lt;b&gt;PrivatePay работает так:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivatePay начинается с разбиения Ваших входов транзакций на стандартные номиналы. Такими номиналами являются 0.01 PURA, 0.1 PURA, 1 PURA и 10 PURA -- что-то вроде купюр, которыми вы пользуетесь каждый день.&lt;/li&gt; &lt;li&gt;Ваш кошелек затем отправляет запросы к особым образом настроенным сетевым узлам, называемым "мастернодами". Эти мастерноды знают только то, что Вы хотите перемешать определенные номиналы. Никакой идентифицирующей информации мастернодам не отравляется, так что они не знают "кто" Вы конкретно.&lt;/li&gt; &lt;li&gt;Сессия перемешивания начинается тогда, когда еще двое человек отправляют схожее сообщение, подтверждающее, что они хотят перемешать точно такой же номинал. Мастернода перемешивает входы и просит кошельки всех пользователей осуществить платежи по ним. Ваш кошелек осуществляет выплату самому себе, но на другой адрес (тоже из вашего кошелька).&lt;/li&gt; &lt;li&gt;Для скрытия Ваших средств кошелек должен повторить этот процесс несколько раз с каждым номиналом. Каждый раз, когда такой процесс завершается, называется "раундом". С каждым раундом PrivatePay становится экспоненциально сложнее определить откуда поступили средства.&lt;/li&gt; &lt;li&gt;Процесс перемешивания выполняется в фоне, без участия пользователя. Когда Вы захотите провести транзакцию, средства уже будут анонимизированы. Дополнительно ждать не требуется.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Ваш кошелек содержит 1000 адресов. Каждое перемешивание использует до 9 из этих адресов. Это означает, что 1000 адресов хватит примерно на 100 перемешиваний. Когда 900 адресов будут уже использованы, Ваш кошелек должен создать новые адреса. Однако, он может сделать это, только если у Вас включены автоматические резервные копии.&lt;br&gt;Соответственно, пользователям с отключенным резервным копированием PrivatePay не доступен. &lt;hr&gt;Дополнительная информация доступна по ссылке &lt;a href="https://folpay.atlassian.net/wiki/display/DOC/PrivatePay"&gt;https://folpay.atlassian.net/wiki/display/DOC/PrivatePay&lt;/a&gt;         </translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1121,16 +1121,16 @@
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Pura Core.</source>
-        <translation>Добро пожаловать в Pura Core.</translation>
+        <source>Welcome to FOL Core.</source>
+        <translation>Добро пожаловать в FOL Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Pura Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Pura Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where FOL Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где FOL Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>Pura Core will download and store a copy of the Pura block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Pura Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
+        <source>FOL Core will download and store a copy of the FOL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>FOL Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1141,8 +1141,8 @@
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1330,20 +1330,20 @@
         <translation>(0 = автоматически, &lt;0 = оставить столько незагруженных ядер)</translation>
     </message>
     <message>
-        <source>Amount of Pura to keep anonymized</source>
-        <translation>Сумма постоянно анонимизированных Pura</translation>
+        <source>Amount of FOL to keep anonymized</source>
+        <translation>Сумма постоянно анонимизированных FOL</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>К&amp;ошелёк</translation>
     </message>
     <message>
-        <source>Automatically start Pura Core after logging in to the system.</source>
-        <translation>Автоматически запускать Pura Core после входа в систему.</translation>
+        <source>Automatically start FOL Core after logging in to the system.</source>
+        <translation>Автоматически запускать FOL Core после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Pura Core on system login</source>
-        <translation>&amp;Запускать Pura Core при входе в систему</translation>
+        <source>&amp;Start FOL Core on system login</source>
+        <translation>&amp;Запускать FOL Core при входе в систему</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1390,8 +1390,8 @@
         <translation>Это пороговое значение, при достижении которого PrivatePay отключается.</translation>
     </message>
     <message>
-        <source>Automatically open the Pura Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Pura Core на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
+        <source>Automatically open the FOL Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для FOL Core на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1402,8 +1402,8 @@
         <translation>Принимать входящие подключения</translation>
     </message>
     <message>
-        <source>Connect to the Pura network through a SOCKS5 proxy.</source>
-        <translation>Подключаться к сети Pura через прокси SOCKS5.</translation>
+        <source>Connect to the FOL network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети FOL через прокси SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1414,8 +1414,8 @@
         <translation>Сворачивать вместо закрытия. Если данная настройка будет выбрана, то приложение закроется только после выбора пункта меню Завершить.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Pura Core.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Pura Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FOL Core.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска FOL Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1486,8 +1486,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Pura network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Подключаться к сети Pura через отдельный прокси SOCKS5 для скрытых сервисов Tor.</translation>
+        <source>Connect to the FOL network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Подключаться к сети FOL через отдельный прокси SOCKS5 для скрытых сервисов Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/pura/</source>
+https://www.transifex.com/projects/p/fol/</source>
         <translation>Нет Вашего языка или перевод неполон? Помогите нам сделать перевод лучше:
-https://www.transifex.com/projects/p/pura/</translation>
+https://www.transifex.com/projects/p/fol/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1599,8 +1599,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Pura network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Pura после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FOL network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью FOL после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1868,8 +1868,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start pura: click-to-pay handler</source>
-        <translation>Не удаётся запустить обработчик pura: click-to-pay</translation>
+        <source>Cannot start fol: click-to-pay handler</source>
+        <translation>Не удаётся запустить обработчик fol: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1892,8 +1892,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Неверный адрес платежа %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Pura address or malformed URI parameters.</source>
-        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес Pura либо параметры URI сформированы неверно.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid FOL address or malformed URI parameters.</source>
+        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес FOL либо параметры URI сформированы неверно.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1974,8 +1974,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a Pura address (e.g. %1)</source>
-        <translation>Введите адрес Pura (например, %1)</translation>
+        <source>Enter a FOL address (e.g. %1)</source>
+        <translation>Введите адрес FOL (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2112,8 +2112,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Использование памяти</translation>
     </message>
     <message>
-        <source>Open the Pura Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Pura Core из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
+        <source>Open the FOL Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл FOL Core из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2320,8 +2320,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>&amp;Разблокировать узел</translation>
     </message>
     <message>
-        <source>Welcome to the Pura Core RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Pura Core.</translation>
+        <source>Welcome to the FOL Core RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль FOL Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2391,8 +2391,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Pura.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть FOL.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2403,8 +2403,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Необязательная метка для нового адреса получения.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Pura network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть Pura.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FOL network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть FOL.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2660,7 +2660,7 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "итого минимум" будет равна 1000 duff. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for pura transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for fol transactions than the network can process.</source>
         <translation>Оплаты только минимальной комиссии должно быть достаточно во всех случаях, пока в блоках достаточно места.&lt;br&gt;Однако, будьте готовы к тому, что транзакция может вовсе не получить подтверждения,&lt;br&gt;если количество транзакций будет стабильно больше, чем сеть способна обработать.</translation>
     </message>
     <message>
@@ -2860,8 +2860,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Транзакция была отклонена! Такое может произойти, если некоторые монеты уже были потрачены, например, если Вы используете одну копию кошелька (wallet.dat), а монеты были потрачены из другой копии, но не были отмечены как потраченные в этой.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Pura address</source>
-        <translation>Внимание: неверный адрес Pura</translation>
+        <source>Warning: Invalid FOL address</source>
+        <translation>Внимание: неверный адрес FOL</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2883,8 +2883,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <source>The Pura address to send the payment to</source>
-        <translation>Адрес Pura для отправки на него монет</translation>
+        <source>The FOL address to send the payment to</source>
+        <translation>Адрес FOL для отправки на него монет</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2919,8 +2919,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Ко&amp;личество:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Pura than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Комиссия будет вычтена из отправляемой суммы. Получателю придет меньше Pura, сем указано в поле "Сумма". Если указано несколько получателей, то комиссия будет разделена между ними поровну.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of FOL than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Комиссия будет вычтена из отправляемой суммы. Получателю придет меньше FOL, сем указано в поле "Сумма". Если указано несколько получателей, то комиссия будет разделена между ними поровну.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2931,8 +2931,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the pura: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Pura network.</source>
-        <translation>К pura: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Pura.</translation>
+        <source>A message that was attached to the fol: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FOL network.</source>
+        <translation>К fol: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть FOL.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2958,8 +2958,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Pura Core is shutting down...</source>
-        <translation>Pura Core выключается...</translation>
+        <source>FOL Core is shutting down...</source>
+        <translation>FOL Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2977,12 +2977,12 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Pura sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать, что Вы можете получать Pura на них. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive FOL sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать, что Вы можете получать FOL на них. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The Pura address to sign the message with</source>
-        <translation>Адрес Pura, которым Вы хотите подписать сообщение</translation>
+        <source>The FOL address to sign the message with</source>
+        <translation>Адрес FOL, которым Вы хотите подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3013,8 +3013,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Pura address</source>
-        <translation>Подписать сообщение, чтобы доказать владение этим адресом Pura</translation>
+        <source>Sign the message to prove you own this FOL address</source>
+        <translation>Подписать сообщение, чтобы доказать владение этим адресом FOL</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3037,12 +3037,12 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, кроме самого подписываемого сообщения, чтобы не стать жертвой атаки "man-in-the-middle". Обратите внимание, что это лишь подтверждает, что подписывающий может получить средства на этот адрес, это не подтверждает, что он является отправителем какой-либо транзакции!</translation>
     </message>
     <message>
-        <source>The Pura address the message was signed with</source>
-        <translation>Адрес Pura, которым было подписано сообщение</translation>
+        <source>The FOL address the message was signed with</source>
+        <translation>Адрес FOL, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Pura address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Pura</translation>
+        <source>Verify the message to ensure it was signed with the specified FOL address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом FOL</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3108,8 +3108,8 @@ https://www.transifex.com/projects/p/pura/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Pura Core</source>
-        <translation>Pura Core</translation>
+        <source>FOL Core</source>
+        <translation>FOL Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3120,8 +3120,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Pura Core developers</source>
-        <translation>Разработчики Pura Core</translation>
+        <source>The FOL Core developers</source>
+        <translation>Разработчики FOL Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3680,14 +3680,14 @@ https://www.transifex.com/projects/p/pura/</translation>
     </message>
 </context>
 <context>
-    <name>pura-core</name>
+    <name>fol-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Pura Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Pura Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. FOL Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, FOL Core уже запущен.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3726,8 +3726,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Pura Core is probably already running.</source>
-        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Pura Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. FOL Core is probably already running.</source>
+        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, FOL Core уже запущен.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4006,8 +4006,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Pura Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Pura Core Developers</translation>
+        <source>Copyright (C) 2014-%i The FOL Core Developers</source>
+        <translation>Copyright (C) 2014-%i The FOL Core Developers</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4018,8 +4018,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Ошибка соединения с мастернодой.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Pura Core</source>
-        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии Pura Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FOL Core</source>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии FOL Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -4062,8 +4062,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Pura Core is shutting down.</source>
-        <translation>Проверка на непротиворечивость закончилась неудачно. Pura Core выключается.</translation>
+        <source>Initialization sanity check failed. FOL Core is shutting down.</source>
+        <translation>Проверка на непротиворечивость закончилась неудачно. FOL Core выключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4294,8 +4294,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Превышено значение допустимой для пула PrivatePay суммы.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Pura Core to complete</source>
-        <translation>Необходимо перезаписать кошелёк: перезапустите Pura Core для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart FOL Core to complete</source>
+        <translation>Необходимо перезаписать кошелёк: перезапустите FOL Core для завершения операции</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4346,8 +4346,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Держать в памяти до &lt;n&gt; несвязных транзакций (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Disable all Pura specific functionality (Masternodes, PrivatePay, InstaPay, Governance) (0-1, default: %u)</source>
-        <translation>Отключить всю функциональность, относящуюся к Pura (Мастерноды, PrivatePay, InstaPay, Governance) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all FOL specific functionality (Masternodes, PrivatePay, InstaPay, Governance) (0-1, default: %u)</source>
+        <translation>Отключить всю функциональность, относящуюся к FOL (Мастерноды, PrivatePay, InstaPay, Governance) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4426,8 +4426,8 @@ https://www.transifex.com/projects/p/pura/</translation>
         <translation>Максимальная сумма комиссии (в %s), допустимая в одной транзакции. Установка слишком низкого значения может привести к невозможности отправить большие транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Pura Core will not work properly.</source>
-        <translation>Пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! Pura Core не сможет работать корректно, если часы настроены неверно.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong FOL Core will not work properly.</source>
+        <translation>Пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! FOL Core не сможет работать корректно, если часы настроены неверно.</translation>
     </message>
     <message>
         <source>PrivatePay uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

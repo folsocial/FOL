@@ -2,13 +2,13 @@
 ====================
 
 
-Pura Core version 0.1.0 is now available from:
+FOL Core version 0.1.0 is now available from:
 
-  https://pura.one/downloads
+  https://fol.one/downloads
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/purapay/pura/issues
+  https://github.com/folpay/fol/issues
 
 
 How to Upgrade
@@ -16,8 +16,8 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over /Applications/Pura-Qt (on Mac) or
-purad/pura-qt (on Linux).
+installer (on Windows) or just copy over /Applications/FOL-Qt (on Mac) or
+fold/fol-qt (on Linux).
 
 **This new version uses transaction indexing by default, you will need to reindex 
 the blockchain. To do so, start the client with --reindex.**
@@ -36,4 +36,4 @@ Thanks to who contributed to this release, at least:
 
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pura/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/fol/).

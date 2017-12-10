@@ -2,7 +2,7 @@
 
 # Helpful little script that spits out a comma-separated list of
 # language codes for Qt icons that should be included
-# in binary Pura Core distributions
+# in binary FOL Core distributions
 
 import glob
 import os
@@ -16,7 +16,7 @@ d1 = sys.argv[1]
 d2 = sys.argv[2]
 
 l1 = set([ re.search(r'qt_(.*).qm', f).group(1) for f in glob.glob(os.path.join(d1, 'qt_*.qm')) ])
-l2 = set([ re.search(r'pura_(.*).qm', f).group(1) for f in glob.glob(os.path.join(d2, 'pura_*.qm')) ])
+l2 = set([ re.search(r'fol_(.*).qm', f).group(1) for f in glob.glob(os.path.join(d2, 'fol_*.qm')) ])
 
 print ",".join(sorted(l1.intersection(l2)))
 

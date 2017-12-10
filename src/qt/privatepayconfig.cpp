@@ -42,7 +42,7 @@ void PrivatepayConfig::clickBasic()
         model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
     QMessageBox::information(this, tr("PrivatePay Configuration"),
         tr(
-            "PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Pura's configuration screen."
+            "PrivatePay was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FOL's configuration screen."
         ).arg(strAmount)
     );
 
@@ -57,7 +57,7 @@ void PrivatepayConfig::clickHigh()
         model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
     QMessageBox::information(this, tr("PrivatePay Configuration"),
         tr(
-            "PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Pura's configuration screen."
+            "PrivatePay was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FOL's configuration screen."
         ).arg(strAmount)
     );
 
@@ -72,7 +72,7 @@ void PrivatepayConfig::clickMax()
         model->getOptionsModel()->getDisplayUnit(), 1000 * COIN));
     QMessageBox::information(this, tr("PrivatePay Configuration"),
         tr(
-            "PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Pura's configuration screen."
+            "PrivatePay was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FOL's configuration screen."
         ).arg(strAmount)
     );
 
